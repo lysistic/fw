@@ -1,0 +1,42 @@
+url,repo,file,java_file,func,hunk,test,note
+https://github.com/line/armeria/commit/b597f7a865a527a84ee3d6937075cfbb4470ed20,line/armeria,3,3,8,16,1,Merge pull request from GHSA-35fr-h7jr-hh86
+https://github.com/dropwizard/dropwizard/commit/d5a512f7abf965275f2a6b913ac4fe778e424242,dropwizard/dropwizard,4,4,16,32,1,Disable message interpolation in ConstraintViolations by default (#3208)
+https://github.com/FasterXML/jackson-dataformats-binary/commit/de072d314af8f5f269c8abec6930652af67bc8e6,FasterXML/jackson-dataformats-binary,4,2,15,19,1,Fix eager allocation aspect of #186
+https://github.com/weld/core/commit/29fd1107fd30579ad9bb23fae4dc3ba464205745,weld/core,0,0,0,0,1,WELD-1802 RequestScopedCache - Testcase
+https://github.com/oblac/jodd/commit/9bffc3913aeb8472c11bb543243004b4b4376f16,oblac/jodd,4,3,4,4,1,Added `allowClass` (closes #628)
+https://github.com/bcgit/bc-java/commit/b0c3ce99d43d73a096268831d0d120ffc89eac7f#diff-3679f5a9d2b939d0d3ee1601a7774fb0,bcgit/bc-java,1,1,0,1,1,added length check for sequence in DSA signatures
+https://github.com/FasterXML/jackson-databind/commit/28badf7ef60ac3e7ef151cd8e8ec010b8479226a,FasterXML/jackson-databind,2,1,0,4,1,Backport #2052, #2058 fixes for 2.7.9.4
+https://github.com/lukashinsch/spring-boot-actuator-logview/commit/1c76e1ec3588c9f39e1a94bf27b5ff56eb8b17d6,lukashinsch/spring-boot-actuator-logview,3,1,3,7,1,Merge pull request #30 from lukashinsch/hotfix/dir-traversal
+https://github.com/FasterXML/jackson-databind/commit/a424c038ba0c0d65e579e22001dec925902ac0ef,FasterXML/jackson-databind,2,1,0,2,1,Fix #2658
+https://github.com/netty/netty/commit/2fa9400a59d0563a66908aba55c41e7285a04994,netty/netty,1,1,2,6,1,Fix a bug where SslHandler does not handle SSLv2Hello correctly
+https://github.com/ratpack/ratpack/commit/c560a8d10cb8bdd7a526c1ca2e67c8f224ca23ae,ratpack/ratpack,0,0,0,0,1,Add test for response header validation
+https://github.com/FasterXML/jackson-databind/commit/28badf7ef60ac3e7ef151cd8e8ec010b8479226a,FasterXML/jackson-databind,2,1,0,4,1,Backport #2052, #2058 fixes for 2.7.9.4
+https://github.com/kiegroup/jbpm-wb/commit/4818204506e8e94645b52adb9426bedfa9ffdd04,kiegroup/jbpm-wb,1,1,0,1,1,BZ-1049109: escaping task name html inputs
+https://github.com/togglz/togglz/commit/ed66e3f584de954297ebaf98ea4a235286784707,togglz/togglz,10,5,7,23,1,Added CSRF protection to the togglz console via a CSRF token passed between the server and the clinet. This remediates the vulnerabilty CVE-2020-28191 by blocking CSRF attacks as the attcker will not be able to guess the CSRF token value. (#495)
+https://github.com/bcgit/bc-java/commit/790642084c4e0cadd47352054f868cc8397e2c00#diff-e5934feac8203ca0104ab291a3560a31,bcgit/bc-java,5,5,0,40,1,Fix carry propagation bug in Nat???.square methods
+https://github.com/FasterXML/jackson-databind/commit/ad5a630174f08d279504bc51ebba8772fd71b86b,FasterXML/jackson-databind,1,0,0,1,1,Add cve id for #2798
+https://github.com/fusesource/hawtjni/commit/92c266170ce98edc200c656bd034a237098b8aa5,fusesource/hawtjni,1,1,11,0,1,Simplify shared lib extraction.
+https://github.com/kiegroup/jbpm-designer/commit/a143f3b92a6a5a527d929d68c02a0c5d914ab81d,kiegroup/jbpm-designer,6,1,15,24,1,JBPM-6415 - Remove jPDL migration plugin and its use from jbpm-designer (#658) (#673)
+https://github.com/keycloak/keycloak/commit/9a7c1a91a59ab85e7f8889a505be04a71580777f,keycloak/keycloak,1,1,1,2,1,KEYCLOAK-10780 Stop creating placeholder e-mails for service accounts (#228)
+https://github.com/opencast/opencast/commit/4225bf90af74557deaf8fb6b80b0705c9621acfc,opencast/opencast,1,1,12,16,1,Re-Enable Hostname Verification
+https://github.com/dom4j/dom4j/commit/a8228522a99a02146106672a34c104adbda5c658,dom4j/dom4j,3,3,131,259,1,SAXReader uses system default XMLReader with its defaults. New factory method SAXReader.createDefault() sets more secure defaults.
+https://github.com/ratpack/ratpack/commit/f2b63eb82dd71194319fd3945f5edf29b8f3a42d,ratpack/ratpack,2,2,2,3,1,Use UUID directly for generating session IDs
+https://github.com/pslegr/core-1/commit/8131f15003f5bec73d475d2b724472e4b87d0757,pslegr/core-1,1,1,0,2,1,RF-13250: applying patch
+https://github.com/bcgit/bc-java/commit/22467b6e8fe19717ecdf201c0cf91bacf04a55ad,bcgit/bc-java,1,1,1,4,1,BJA-694 minor tweak to avoid method signature change
+https://github.com/spring-projects/spring-framework/commit/7a7df6637478607bef0277bf52a4e0a03e20a248,spring-projects/spring-framework,1,1,7,1,1,Update JavaScriptUtils
+https://github.com/javamelody/javamelody/commit/ef111822562d0b9365bd3e671a75b65bd0613353,javamelody/javamelody,1,1,0,1,1,fix for security
+https://github.com/spring-projects/spring-data-jpa/commit/b8e7fe,spring-projects/spring-data-jpa,3,2,24,54,1,DATAJPA-965 - Fix potential blind SQL injection in Sort when used in combination with @Query.
+https://github.com/orientechnologies/orientdb/commit/668ece96be210e742a4e2820a3085b215cf55104,orientechnologies/orientdb,1,1,18,44,1,Adopted SecureRandom to avoid predicable random numbers in session
+https://github.com/browserup/browserup-proxy/commit/4b38e7a3e20917e5c3329d0d4e9590bed9d578ab,browserup/browserup-proxy,5,5,6,12,1,Fix Critical Java EL Injection RCE vulnerability from GHSL-2020-213
+https://github.com/opencast/opencast/commit/32bfbe5f78e214e2d589f92050228b91d704758e,opencast/opencast,6,5,8,22,1,Replace MD5 with bcrypt for password hashing
+https://github.com/bcgit/bc-java/commit/a00b684465b38d722ca9a3543b8af8568e6bad5c,bcgit/bc-java,1,1,0,1,1,Confirm size of decrypted PMS before using
+https://github.com/spring-projects/spring-framework/commit/741b4b229ae032bd17175b46f98673ce0bd2d485,spring-projects/spring-framework,1,1,1,0,1,Add encoding for the default action in FormTag
+https://github.com/square/retrofit/commit/b9a7f6ad72073ddd40254c0058710e87a073047d#diff-943ec7ed35e68201824904d1dc0ec982,square/retrofit,1,1,0,2,1,Forbid path traversal ('.' and '..') as @Path parameters.
+https://github.com/zhutougg/c3p0/commit/2eb0ea97f745740b18dd45e4a909112d4685f87b,zhutougg/c3p0,1,1,0,1,1,Repair XXE vulnerability at initialization
+https://github.com/joniles/mpxj/commit/8eaf4225048ea5ba7e59ef4556dab2098fcc4a1d,joniles/mpxj,1,1,1,2,1,zip slip fix
+https://github.com/dropwizard/dropwizard/commit/d87d1e4f8e20f6494c0232bf8560c961b46db634,dropwizard/dropwizard,1,1,5,9,1,Escape EL expressions in ViolationCollector (#3157)
+https://github.com/bcgit/bc-java/commit/4092ede58da51af9a21e4825fbad0d9a3ef5a223#diff-2c06e2edef41db889ee14899e12bd574,bcgit/bc-java,9,8,10,22,1,added additional checking to XMSS BDS tree parsing. Failures now mostly cause IOException
+https://github.com/bcgit/bc-java/commit/9385b0ebd277724b167fe1d1456e3c112112be1f,bcgit/bc-java,7,7,16,54,1,removed support for non-cbc mode ciphers in IES/ECIES
+https://github.com/hawtio/hawtio/commit/b4e23e002639c274a2f687ada980118512f06113,hawtio/hawtio,6,3,15,8,1,Add a LoginTokenServlet that plugins can use to fetch a token, and let's use it in hawtio-karaf-terminal.  Also handle cases where the terminal scope gets created a couple times.
+https://github.com/beanshell/beanshell/commit/1ccc66bb693d4e46a34a904db8eeff07808d2ced,beanshell/beanshell,1,1,0,16,1,None
+https://github.com/bcgit/bc-java/commit/50a53068c094d6cff37659da33c9b4505becd389#diff-5578e61500abb2b87b300d3114bdfd7d,bcgit/bc-java,1,1,1,7,1,updated default DSA parameters to follow 186-4
