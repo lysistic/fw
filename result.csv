@@ -1,0 +1,790 @@
+url	repo	file	java_file	func	hunk	test	note		
+https://github.com/apache/tomcat/commit/0cac540a882220231ba7a82330483cbd5f6b1f96	apache/tomcat	2	1	1	4	1	Report HTTP/2 header parsing errors earlier		
+https://github.com/apache/tomcat/commit/d07c82194edb69d99b438828fe2cbfadbb207843	apache/tomcat	2	1	1	4	1	Report HTTP/2 header parsing errors earlier		
+https://github.com/apache/tomcat/commit/810f49d5ff6d64b704af85d5b8d0aab9ec3c83f5	apache/tomcat	2	1	1	4	1	Report HTTP/2 header parsing errors earlier		
+https://github.com/apache/tomcat/commit/8e03be9f2698f2da9027d40b9e9c0c9429b74dc0	apache/tomcat	2	1	1	4	1	Report HTTP/2 header parsing errors earlier		
+https://github.com/apache/tomcat/commit/ce4b154e7b48f66bd98858626347747cd2514311	apache/tomcat	2	1	4	6	1	Ensure ReadListener.onError() is fired if client drops the connection		
+https://github.com/apache/tomcat/commit/9b44626e136c89a107dd4458ad4bde6123359fd6	apache/tomcat	2	1	2	6	1	Ensure ReadListener.onError() is fired if client drops the connection		
+https://github.com/apache/tomcat/commit/86ccc43940861703c2be96a5f35384407522125a	apache/tomcat	2	1	4	6	1	Ensure ReadListener.onError() is fired if client drops the connection		
+https://github.com/apache/tomcat/commit/bd5ebb63e438a253bbd9b035425ece915d3feb21	apache/tomcat	6	0	0	18	1	Disable AJP connector by default		
+https://github.com/apache/tomcat/commit/4c933d80e340b4a841a672060351b2190b326782	apache/tomcat	6	0	0	18	1	Disable AJP connector by default		
+https://github.com/apache/tomcat/commit/0f725b323a74b64cdb35fce04b54427582ad6063	apache/tomcat	5	0	0	17	1	Disable AJP connector by default		
+https://github.com/apache/tomcat/commit/9233d9d6a018be4415d4d7d6cb4fe01176adf1a8	apache/tomcat	2	1	5	18	1	Fix https://bz.apache.org/bugzilla/show_bug.cgi?id=60918 When sendfile processing passes to the Poller for completion and then completes before Http11Processor.service() exists	 the Processor is recycled which clears sendfileData causing the Processor to return CLOSED or OPEN rather than SENDFILE.	
+https://github.com/apache/tomcat/commit/c83fe47725f7ae9ae213568d9039171124fb7ec6	apache/tomcat	4	2	6	5	1	Align processing of trailer headers with standard processing		
+https://github.com/apache/tomcat/commit/59583245639d8c42ae0009f4a4a70464d3ea70a0	apache/tomcat	4	2	6	5	1	Align processing of trailer headers with standard processing		
+https://github.com/apache/tomcat/commit/8ecff306507be8e4fd3adee1ae5de1ea6661a8f4	apache/tomcat	4	2	6	5	1	Align processing of trailer headers with standard processing		
+https://github.com/apache/tomcat/commit/eb5c094e5560764cda436362254997511a3ca1f6	apache/tomcat	4	2	6	5	1	Align processing of trailer headers with standard processing		
+https://github.com/apache/tomcat/commit/ed6d4ccd59ec2e1c99bf0d3533219292f2107fde	apache/tomcat	3	1	2	1	1	Zero length HTTP header names are not valid (not valid tokens)		
+https://github.com/apache/tomcat/commit/e239c5dbb07e70d1d6298e6f066b4f69d6df39df	apache/tomcat	3	1	2	1	1	Zero length HTTP header names are not valid (not valid tokens)		
+https://github.com/apache/tomcat/commit/327c0d77470e40ede3853fb452a78b4144258c19	apache/tomcat	3	1	2	1	1	Zero length HTTP header names are not valid (not valid tokens)		
+https://github.com/apache/tomcat/commit/3f379d417ebba69af1f3f48df52e64a2a6f5e283	apache/tomcat	3	1	2	1	1	Zero length HTTP header names are not valid (not valid tokens)		
+https://github.com/apache/tomcat/commit/ed6d4ccd59ec2e1c99bf0d3533219292f2107fde	apache/tomcat	3	1	2	1	1	Zero length HTTP header names are not valid (not valid tokens)		
+https://github.com/apache/tomcat/commit/e239c5dbb07e70d1d6298e6f066b4f69d6df39df	apache/tomcat	3	1	2	1	1	Zero length HTTP header names are not valid (not valid tokens)		
+https://github.com/apache/tomcat/commit/327c0d77470e40ede3853fb452a78b4144258c19	apache/tomcat	3	1	2	1	1	Zero length HTTP header names are not valid (not valid tokens)		
+https://github.com/apache/tomcat/commit/3f379d417ebba69af1f3f48df52e64a2a6f5e283	apache/tomcat	3	1	2	1	1	Zero length HTTP header names are not valid (not valid tokens)		
+https://github.com/apache/tomcat80/commit/d49a03728ac7e3c800b1b0ce0eeccd8a5a21bb91	apache/tomcat80	2	1	2	4	1	Improve processing of chuck size from chunked headers. Avoid overflow and use a bit shift instead of a multiplication as it is marginally faster. This is the fix for CVE-2014-0075		
+https://github.com/apache/tomcat/commit/452c8094a665ef6375530e81c033da4eeb2e4865	apache/tomcat	2	1	0	2	1	Fix intermittent test failure spotted during some refactoring.		
+https://github.com/apache/tomcat80/commit/614e7f78aecc429d8740bb59900c2f9fbc86a788	apache/tomcat80	2	1	2	3	1	Fix https://issues.apache.org/bugzilla/show_bug.cgi?id=57544 Fix potential infinite loop if pos == 0 Only need to update lastValid & pos if bytes have been moved.		
+https://github.com/apache/tomcat/commit/9a0231683a77e2957cea0fdee88b193b30b0c976	apache/tomcat	2	1	0	2	1	Fix BZ 64467. Improve performance of closing idle streams		
+https://github.com/apache/tomcat/commit/c8acd2ab7371e39aeca7c306f3b5380f00afe552	apache/tomcat	2	1	0	2	1	Fix BZ 64467. Improve performance of closing idle streams		
+https://github.com/apache/tomcat/commit/9434a44d3449d620b1be70206819f8275b4a7509	apache/tomcat	2	1	0	2	1	Fix BZ 64467. Improve performance of closing idle streams		
+https://github.com/apache/tomcat/commit/9d7def063b47407a09a2f9202beed99f4dcb292a	apache/tomcat	2	2	0	4	1	Move check for current streams to end of header parsing.		
+https://github.com/apache/tomcat/commit/55911430df13f8c9998fbdee1f9716994d2db59b	apache/tomcat	2	2	0	4	1	Move check for current streams to end of header parsing.		
+https://github.com/apache/tomcat/commit/1bbc650cbc3f08d85a1ec6d803c47ae53a84f3bb	apache/tomcat	2	2	0	4	1	Move check for current streams to end of header parsing.		
+https://github.com/apache/tomcat/commit/55911430df13f8c9998fbdee1f9716994d2db59b	apache/tomcat	2	2	0	4	1	Move check for current streams to end of header parsing.		
+https://github.com/apache/tomcat/commit/9d7def063b47407a09a2f9202beed99f4dcb292a	apache/tomcat	2	2	0	4	1	Move check for current streams to end of header parsing.		
+https://github.com/apache/tomcat/commit/1bbc650cbc3f08d85a1ec6d803c47ae53a84f3bb	apache/tomcat	2	2	0	4	1	Move check for current streams to end of header parsing.		
+https://github.com/apache/struts/commit/d8c69691ef1d15e76a5f4fcf33039316da2340b6	apache/struts	1	1	7	10	1	Makes HttpParameters case-insensitive		
+https://github.com/apache/struts/commit/162e29fee9136f4bfd9b2376da2cbf590f9ea163	apache/struts	1	1	5	11	1	Makes HttpParameters case-insensitive		
+https://github.com/apache/struts/commit/65efe3dc2185003d4b199fc389aa633f3a186e39	apache/struts	1	0	0	4	1	Adds additional exclude params		
+https://github.com/apache/struts/commit/bf54436869c264941dd192c752a4abfaa65d3711	apache/struts	1	1	10	2	1	Always delete uploaded file		
+https://github.com/apache/struts/commit/3292152f8c0a77ee4827beede82b6580478a2c2a	apache/struts	1	1	10	12	1	Always delete uploaded file		
+https://github.com/apache/struts/commit/4c044f12560e22e00520595412830f9582d6dac7	apache/struts	1	1	10	12	1	Always delete uploaded file		
+https://github.com/apache/struts/commit/1081c52be93abfd2f33ba8453c676e3edcedec8b	apache/struts	3	3	8	12	1	Merged from trunk WW-3858 Decouple token names from their respective session attribute names [from revision 1368827]		
+https://github.com/apache/struts/commit/41f90ae39d0783f64641726e7e6b4741663c04bd	apache/struts	3	3	6	11	1	Improves accepted param names and drops support of white spaces in param names		
+https://github.com/apache/struts/commit/da85bb6abd222a96ea2fb0ad9701359d12d062fe	apache/struts	1	0	0	4	1	WW-3631 - adds additional excluded params to avoid session / request / response tempering		
+https://github.com/apache/struts/commit/64788152910a84e7755a8302896a1fa2d5ecef7d	apache/struts	1	1	2	3	1	WW-4805 Improves ProxyUtil performance via caching		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980	micronaut-projects/micronaut-security	1	1	0	1	1	Merge pull request from GHSA-qw22-8w9r-864h		
+https://github.com/apache/cxf/commit/440528d928be1e2030e7227b958c9c072847d9b2	apache/cxf	10	10	34	33	1	Merged revisions 1338219 via  git cherry-pick from https://svn.apache.org/repos/asf/cxf/trunk		
+https://github.com/apache/cxf/commit/370fc698d2efa98278ccdb3b0204ef7290a37d08	apache/cxf	10	10	34	33	1	Merged revisions 1338219 via  git cherry-pick from https://svn.apache.org/repos/asf/cxf/trunk		
+https://github.com/apache/cxf/commit/4500bf901cb2a7312291b6663045f28a95d2a0c4	apache/cxf	10	10	34	33	1	Improved SupportingToken policy validation		
+https://github.com/apache/cxf/commit/9bb4612d3352ef3e3292fdce25e3c70b43d63c6f	apache/cxf	1	1	1	5	1	Improving WS-SecurityPolicy 1.1 test coverage		
+https://github.com/apache/cxf/commit/9bb4612d3352ef3e3292fdce25e3c70b43d63c6f	apache/cxf	1	1	1	5	1	Improving WS-SecurityPolicy 1.1 test coverage		
+https://github.com/apache/cxf/commit/9bb4612d3352ef3e3292fdce25e3c70b43d63c6f	apache/cxf	1	1	1	5	1	Improving WS-SecurityPolicy 1.1 test coverage		
+https://github.com/hazelcast/hazelcast/commit/e9d9b6dc3e46b147071c97a2d92a496479ef7439	hazelcast/hazelcast	22	21	26	24	1	Extend permission checks in MessageTasks and add a test coverage [HZ-2090] [5.3.z] (#25539)		
+https://github.com/hazelcast/hazelcast/commit/1eec447afaff529381e8cf8af07b368b2665883c	hazelcast/hazelcast	22	22	31	26	1	Extend permission checks in MessageTasks and add a test coverage [HZ-2090] [5.2.5]  (#787)		
+https://github.com/hazelcast/hazelcast/commit/2800fcb4f115e17f24621d7972260c539139daf4	hazelcast/hazelcast	1	1	6	7	1	[HZ-1202] Make TcpIpConnection.equals more robust (3.12.z) (#21885)		
+https://github.com/hazelcast/hazelcast/commit/c18b707dc7ba134f88b155cc8c9c57ea75ce595c	hazelcast/hazelcast	1	1	4	5	1	Make TcpServerConnection.equals more robust [HZ-1202] (4.1.z) (#21644)		
+https://github.com/hazelcast/hazelcast/commit/4fe4f0a67f7b3b8be525165c0237de011ffe2157	hazelcast/hazelcast	1	1	4	5	1	Make TcpServerConnection.equals more robust [HZ-1202] (4.2.z) (#21643)		
+https://github.com/hazelcast/hazelcast/commit/c9e6ba44bbc7c65faae6aacb3ad863c9b03f7562	hazelcast/hazelcast	1	1	4	5	1	Make TcpServerConnection.equals more robust [HZ-1202] (5.0.z) (#21642)		
+https://github.com/hazelcast/hazelcast/commit/a56e6d5c44eb85926b346588d1d9cc28ef5cc85c	hazelcast/hazelcast	1	1	4	5	1	Make TcpServerConnection.equals more robust [HZ-1202] (5.1.z) (#21641)		
+https://github.com/pgjdbc/pgjdbc/commit/06abfb78a627277a580d4df825f210e96a4e14ee	pgjdbc/pgjdbc	1	1	10	24	1	Merge pull request from GHSA-24rp-q3w6-vc56		
+https://github.com/pgjdbc/pgjdbc/commit/d368b1cc5fbfc9750151f87d78e12db97e13af0e	pgjdbc/pgjdbc	1	1	10	24	1	Merge pull request from GHSA-24rp-q3w6-vc56		
+https://github.com/pgjdbc/pgjdbc/commit/475e3e2af3033c666fc1c0015159b35455118ae5	pgjdbc/pgjdbc	1	1	10	25	1	Merge pull request from GHSA-24rp-q3w6-vc56		
+https://github.com/pgjdbc/pgjdbc/commit/fe002b31f2c7dcf7e2fe75fe7fd18df4e4503abf	pgjdbc/pgjdbc	1	1	10	24	1	Merge pull request from GHSA-24rp-q3w6-vc56		
+https://github.com/pgjdbc/pgjdbc/commit/d93c74127f5aebda2baa8fcefed4f0b4dfe81d95	pgjdbc/pgjdbc	1	1	10	24	1	Merge pull request from GHSA-24rp-q3w6-vc56		
+https://github.com/pgjdbc/pgjdbc/commit/990d63f6be401ab40de5eb303a75924c9e71903c	pgjdbc/pgjdbc	1	1	10	26	1	Merge pull request from GHSA-24rp-q3w6-vc56		
+https://github.com/playframework/playframework/commit/97f9ddbb13d8f373e8088f4bb41cb2ccd6df9de7	playframework/playframework	1	1	0	1	1	Fixed xxe problems in Play's Java XML parser		
+https://github.com/playframework/playframework/commit/b226583403179d815e8ae7e76c381b22a9a7c2e0	playframework/playframework	1	1	0	1	1	Fixed xxe problems in Play's Java XML parser		
+https://github.com/playframework/playframework/commit/b226583403179d815e8ae7e76c381b22a9a7c2e0	playframework/playframework	1	1	0	1	1	Fixed xxe problems in Play's Java XML parser		
+https://github.com/playframework/playframework/commit/97f9ddbb13d8f373e8088f4bb41cb2ccd6df9de7	playframework/playframework	1	1	0	1	1	Fixed xxe problems in Play's Java XML parser		
+https://github.com/playframework/playframework/commit/5e3ecbf9814c2d28bcbe92887ce7259397cf678c	playframework/playframework	4	2	9	12	1	Json parse on forms		
+https://github.com/playframework/playframework/commit/5e3ecbf9814c2d28bcbe92887ce7259397cf678c	playframework/playframework	4	2	9	12	1	Json parse on forms		
+https://github.com/apache/activemq/commit/d0ccdd31544ada83185554c87c7aa141064020f0	apache/activemq	16	13	37	30	1	AMQ-9370 - Openwire marshaller should validate Throwable class type		
+https://github.com/apache/activemq/commit/9905e2a5bf9862a049f94ce0a2465b0c7ad52436	apache/activemq	16	13	37	30	1	AMQ-9370 - Openwire marshaller should validate Throwable class type		
+https://github.com/apache/activemq/commit/958330df26cf3d5cdb63905dc2c6882e98781d8f	apache/activemq	16	13	37	30	1	AMQ-9370 - Openwire marshaller should validate Throwable class type		
+https://github.com/apache/activemq/commit/22442b2385b1000312aec3d19e510131d595a5fc	apache/activemq	16	13	37	30	1	AMQ-9370 - Openwire marshaller should validate Throwable class type		
+https://github.com/fusesource/mqtt-client/commit/2898f10be758decdc85ba6c523cb5be6b9092855	fusesource/mqtt-client	1	1	1	1	1	Better handle the case of parsing malformed MQTT frames		
+https://github.com/apache/wicket/commit/b8a31c41d9dd13ff6492407b86f601da654c0cd7	apache/wicket	1	1	0	5	1	allow non-Wicket markup to be served from PackageResource		
+https://github.com/apache/wicket/commit/618b9d4137e471d06a9b226487fd7dc2c2b321f5	apache/wicket	1	1	0	5	1	allow non-Wicket markup to be served from PackageResource		
+https://github.com/apache/pulsar/commit/084347c801185f14e42e7d399327092efbed101f	apache/pulsar	5	4	8	15	1	[improve][proxy] Support disabling metrics endpoint (#21031)		
+https://github.com/apache/pulsar/commit/c644849b2dd21c824eaaeeb5b5482df7e492f49a	apache/pulsar	5	4	8	14	1	[improve][proxy] Support disabling metrics endpoint (#21031)		
+https://github.com/apache/pulsar/commit/a302772e391c6162e9e9554d217e2fb88915d047	apache/pulsar	5	4	8	15	1	[improve][proxy] Support disabling metrics endpoint (#21031)		
+https://github.com/apache/pulsar/commit/fd6c4f817c3d8c9e6e8afffe5080637ef9727e56	apache/pulsar	5	4	8	15	1	[improve][proxy] Support disabling metrics endpoint (#21031)		
+https://github.com/apache/activemq/commit/9905e2a5bf9862a049f94ce0a2465b0c7ad52436	apache/activemq	16	13	37	30	1	AMQ-9370 - Openwire marshaller should validate Throwable class type		
+https://github.com/apache/activemq/commit/22442b2385b1000312aec3d19e510131d595a5fc	apache/activemq	16	13	37	30	1	AMQ-9370 - Openwire marshaller should validate Throwable class type		
+https://github.com/apache/activemq/commit/d0ccdd31544ada83185554c87c7aa141064020f0	apache/activemq	16	13	37	30	1	AMQ-9370 - Openwire marshaller should validate Throwable class type		
+https://github.com/apache/activemq/commit/958330df26cf3d5cdb63905dc2c6882e98781d8f	apache/activemq	16	13	37	30	1	AMQ-9370 - Openwire marshaller should validate Throwable class type		
+https://github.com/bcgit/bc-java/commit/eff6adf03f426dc4d55e8305255eb38c811ddda7	bcgit/bc-java	3	3	3	4	1	Fix ASN.1 External constructors taking tagged object		
+https://github.com/bcgit/bc-java/commit/97578f9b7ed277e6ecb58834e85e3d18385a4219	bcgit/bc-java	1	1	1	1	1	None		
+https://github.com/bcgit/bc-java/commit/97578f9b7ed277e6ecb58834e85e3d18385a4219	bcgit/bc-java	1	1	1	1	1	None		
+https://github.com/bcgit/bc-java/commit/97578f9b7ed277e6ecb58834e85e3d18385a4219	bcgit/bc-java	1	1	1	1	1	None		
+https://github.com/apache/camel/commit/f281a06a54b4885c155feb2bc9a3398a6735c5a9	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/camel/commit/4af24a154d4c0599f47efad0a44921c66b9ef7c5	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/camel/commit/9a44c6c1974f15ff481cd38b3e672843fb9d12c3	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/camel/commit/11f68102c1d390c5264bc6c49d79059fdbf1cb16	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/struts/commit/677ccebe83d159d7c0a2274af703a7cc752a04b3	apache/struts	1	0	0	1	1	WW-4836 Upgrades xstream lib to the latest version		
+https://github.com/apache/struts/commit/8216ec1c4d2d1f558558b2464bbcdcd1efe86bc7	apache/struts	1	0	0	1	1	WW-4836 Upgrades xstream lib to the latest version		
+https://github.com/apache/struts/commit/8216ec1c4d2d1f558558b2464bbcdcd1efe86bc7	apache/struts	1	0	0	1	1	WW-4836 Upgrades xstream lib to the latest version		
+https://github.com/apache/struts/commit/8216ec1c4d2d1f558558b2464bbcdcd1efe86bc7	apache/struts	1	0	0	1	1	WW-4836 Upgrades xstream lib to the latest version		
+https://github.com/apache/flink/commit/58b58f4b16a2e25c95b465377d43a51ad8ef3f6a	apache/flink	2	1	10	17	1	FLINK-16697][metrics][jmx] Disable rebinding		
+https://github.com/apache/flink/commit/804ae70024bf8be7c0c7093d02addb080c318662	apache/flink	2	1	10	17	1	FLINK-16697][metrics][jmx] Disable rebinding		
+https://github.com/apache/flink/commit/804ae70024bf8be7c0c7093d02addb080c318662	apache/flink	2	1	10	17	1	FLINK-16697][metrics][jmx] Disable rebinding		
+https://github.com/apache/flink/commit/58b58f4b16a2e25c95b465377d43a51ad8ef3f6a	apache/flink	2	1	10	17	1	FLINK-16697][metrics][jmx] Disable rebinding		
+https://github.com/apache/pulsar/commit/6274fa01a75d74d559bb7e514c970f1fc07d15bc	apache/pulsar	1	1	0	1	1	[fix][broker] Use MessageDigest.isEqual when comparing digests (#21061)		
+https://github.com/apache/pulsar/commit/bc1019fa8ed37b8a4c8bb01e3662c6c015e1bc27	apache/pulsar	1	1	0	1	1	[fix][broker] Use MessageDigest.isEqual when comparing digests (#21061)		
+https://github.com/apache/pulsar/commit/c27beca64cc93848c40a374f19eaf4d3cc4f4f03	apache/pulsar	1	1	0	1	1	[fix][broker] Use MessageDigest.isEqual when comparing digests (#21061)		
+https://github.com/micronaut-projects/micronaut-core/commit/01adb21e57137caaf7004313d2055c5a78b1f47b	micronaut-projects/micronaut-core	3	2	6	11	1	bug: fix Cors for alternate local addresses (#8642)		
+https://github.com/micronaut-projects/micronaut-core/commit/01adb21e57137caaf7004313d2055c5a78b1f47b	micronaut-projects/micronaut-core	3	2	6	11	1	bug: fix Cors for alternate local addresses (#8642)		
+https://github.com/micronaut-projects/micronaut-core/commit/01adb21e57137caaf7004313d2055c5a78b1f47b	micronaut-projects/micronaut-core	3	2	6	11	1	bug: fix Cors for alternate local addresses (#8642)		
+https://github.com/apache/commons-configuration/commit/add7375cf37fd316d4838c6c56b054fc293b4641	apache/commons-configuration	1	1	0	6	1	Prevent object creation when loading YAML files.		
+https://github.com/apache/commons-configuration/commit/f025bc399e8125ffc7701ac74f09b833c5b5e152	apache/commons-configuration	4	3	7	15	1	Make default interpolation prefix lookups configurable via system property. Remove dns	 url	 and script lookups from defaults.
+https://github.com/apache/commons-configuration/commit/add7375cf37fd316d4838c6c56b054fc293b4641	apache/commons-configuration	1	1	0	6	1	Prevent object creation when loading YAML files.		
+https://github.com/apache/xerces2-j/commit/266e837852e0f0e3c8c1ad572b6fc4dbb4ded17b	apache/xerces2-j	1	1	2	2	1	The only legal names in XML 1.0/1.1 documents are 'version'	 'encoding' and 'standalone'. Replacing the generic call to the scanner with a specialized method which only allows these legal XML pseudo attribute names. This improves the performance of the XML scanner when it is processing the XML declaration.	
+https://github.com/apache/xerces2-j/commit/266e837852e0f0e3c8c1ad572b6fc4dbb4ded17b	apache/xerces2-j	1	1	2	2	1	The only legal names in XML 1.0/1.1 documents are 'version'	 'encoding' and 'standalone'. Replacing the generic call to the scanner with a specialized method which only allows these legal XML pseudo attribute names. This improves the performance of the XML scanner when it is processing the XML declaration.	
+https://github.com/apache/camel/commit/11f68102c1d390c5264bc6c49d79059fdbf1cb16	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/camel/commit/4af24a154d4c0599f47efad0a44921c66b9ef7c5	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/camel/commit/f281a06a54b4885c155feb2bc9a3398a6735c5a9	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/tapestry-5/commit/4d2f9cf94f547cfd5be7f56dc3ab142d299a1b6c	apache/tapestry-5	1	1	0	0	1	TAP5-2670: Better handling of slashes in context asset URLs		
+https://github.com/apache/tapestry-5/commit/30ab433d9acdb45346edbaab425cc0ef02219308	apache/tapestry-5	1	1	0	0	1	TAP5-2670: Better handling of slashes in context asset URLs		
+https://github.com/apache/cxf/commit/555843f9563ccfc2ca1afb2950aebb4505d7711b	apache/cxf	3	3	1	3	1	Doing a better bytes comparison in some of JAXRS OAuth2/Jose code		
+https://github.com/apache/cxf/commit/1338469f7d25cfcda75b547c68bed95bd97903ac	apache/cxf	3	3	1	3	1	Doing a better bytes comparison in some of JAXRS OAuth2/Jose code		
+https://github.com/apache/cxf/commit/1338469f7d25cfcda75b547c68bed95bd97903ac	apache/cxf	3	3	1	3	1	Doing a better bytes comparison in some of JAXRS OAuth2/Jose code		
+https://github.com/apache/cxf/commit/a2ce435cf0eedc8158d118d6d275114408d2a376	apache/cxf	6	6	15	22	1	CXF-7507 - Put a configurable limit on the size of attachment headers		
+https://github.com/apache/cxf/commit/8bd915bfd7735c248ad660059c6b6ad26cdbcdf6	apache/cxf	6	6	16	19	1	CXF-7507 - Put a configurable limit on the size of attachment headers		
+https://github.com/apache/cxf/commit/8bd915bfd7735c248ad660059c6b6ad26cdbcdf6	apache/cxf	6	6	16	19	1	CXF-7507 - Put a configurable limit on the size of attachment headers		
+https://github.com/HtmlUnit/htmlunit/commit/e015082aa909fd9e1c2b5f9b26553ddc0ddbbcab	HtmlUnit/htmlunit	2	1	0	4	1	enable FEATURE_SECURE_PROCESSING for the MSXML XSLProcessor		
+https://github.com/HtmlUnit/htmlunit/commit/88091aff4975abb02331c90e865cec2889c8b6f4	HtmlUnit/htmlunit	1	1	3	3	1	optimization: avoid copy of large strings		
+https://github.com/apache/dolphinscheduler/commit/ca93aa8e260b4e227c054d42aca20b272574e851	apache/dolphinscheduler	1	1	1	3	1	fix switch js (#15487)		
+https://github.com/apache/dolphinscheduler/commit/f2cec3e2593ae5b54dcd7aa992081b84b4b4663a	apache/dolphinscheduler	5	0	0	5	1	Only expose necessary actuator endpoints (#12571) (#12794)		
+https://github.com/jenkinsci/scriptler-plugin/commit/bfa9b3085865d1cb9dce714770e87c4f2651fbf6	jenkinsci/scriptler-plugin	1	1	0	1	1	[SECURITY-3205]		
+https://github.com/jenkinsci/scriptler-plugin/commit/5addb5f9e68596abdba216e61cf714c2767b874b	jenkinsci/scriptler-plugin	4	2	4	8	1	[SECURITY-3206]		
+https://github.com/grails/grails-core/commit/74326bdd2cf7dcb594092165e9464520f8366c60	grails/grails-core	11	10	12	21	1	Update SimpleDataBinder to prevent binding to specific types (#13269)		
+https://github.com/grails/grails-core/commit/c401faaa6c24c021c758b95f72304a0e855a8db3	grails/grails-core	11	10	12	21	1	Update SimpleDataBinder to prevent binding to specific types (#13259)		
+https://github.com/yamcs/yamcs/commit/2b98964d8313ce7c7ab4505e6d8f632ed310cd58	yamcs/yamcs	6	4	6	14	1	Merge pull request #833 from fqqb/next		
+https://github.com/yamcs/yamcs/commit/2b98964d8313ce7c7ab4505e6d8f632ed310cd58	yamcs/yamcs	6	4	6	14	1	Merge pull request #833 from fqqb/next		
+https://github.com/apache/druid/commit/3f8f00a231c4b47981e0e2e48f18f1221249e6f3	apache/druid	2	2	1	7	1	Fix CVE-2021-25646 (#10818)		
+https://github.com/apache/druid/commit/48953e3508967f5156c69676432b5d4dd25ea678	apache/druid	20	11	14	84	1	Allow list for JDBC properties		
+https://github.com/quarkusio/quarkus/commit/5369d7ff233d3afe84ecd9160c541fba52b38e69	quarkusio/quarkus	5	5	12	1	1	Encrypt OIDC session cookie value by default		
+https://github.com/quarkusio/quarkus/commit/df305ff12386cf28b33567b8d9a18db164f019dd	quarkusio/quarkus	5	5	12	1	1	Encrypt OIDC session cookie value by default		
+https://github.com/quarkusio/quarkus/commit/468397ae53a8d6aae933d0d406f94965e97d1935	quarkusio/quarkus	4	4	3	3	1	Merge pull request #34468 from cescoffier/cve-2023-2974		
+https://github.com/quarkusio/quarkus/commit/d5fc95429199629b189b61a78f3d8da76f75ed86	quarkusio/quarkus	4	4	2	2	1	Enforce the configured TLS version		
+https://github.com/droolsjbpm/drools/commit/5b850e8c121be994dbbc5ecba3de4e7355ac4331	droolsjbpm/drools	1	1	3	4	1	BZ-1169553 - (CVE-2014-8125) EMBARGOED CVE-2014-8125 jBPM: BPMN2 file processing XXE in Process Execution		
+https://github.com/droolsjbpm/drools/commit/5b850e8c121be994dbbc5ecba3de4e7355ac4331	droolsjbpm/drools	1	1	3	4	1	BZ-1169553 - (CVE-2014-8125) EMBARGOED CVE-2014-8125 jBPM: BPMN2 file processing XXE in Process Execution		
+https://github.com/rundeck/rundeck/commit/850d12e21d22833bc148b7f458d7cb5949f829b6	rundeck/rundeck	1	1	2	4	1	Merge pull request from GHSA-q4rf-3fhx-88pf		
+https://github.com/rundeck/rundeck/commit/850d12e21d22833bc148b7f458d7cb5949f829b6	rundeck/rundeck	1	1	2	4	1	Merge pull request from GHSA-q4rf-3fhx-88pf		
+https://github.com/apache/jspwiki/commit/2956ccb307dd4b23b25c8ddeae8d7e7b301c6ff3	apache/jspwiki	20	2	44	82	1	2.11.0-M5-git-02 [JSPWIKI-1111] WYSIWYG xss fixes	 web app manifest	 [JSPWiki-1097]
+https://github.com/apache/geode/commit/aa469239860778eb46e09dd7b390aee08f152480	apache/geode	82	82	86	142	1	GEODE-3974: improve permission for Internal functions (#1395)		
+https://github.com/apache/geode/commit/1e6f850be8a0884585ce7456531330464e94493a	apache/geode	4	0	19	45	1	GEODE-10411: fix XSS vulnerability in pulse (#7836)		
+https://github.com/undertow-io/undertow/commit/1fa4e465bfec140cdcb7c0abd2102695da3c333e	undertow-io/undertow	2	2	11	17	1	[UNDERTOW-2277] Prevent writing more than content length at ServletOutputStream/PrintWriter when contentlength is set		
+https://github.com/undertow-io/undertow/commit/22464f8b83788ae0758858d3a33cf7473044f9e9	undertow-io/undertow	2	2	11	17	1	[UNDERTOW-2277] Prevent writing more than content length at ServletOutputStream/PrintWriter when contentlength is set		
+https://github.com/apache/accumulo/commit/58b9de18eb51e91aa9f01338ef5772ca92e329e6	apache/accumulo	1	1	1	7	1	Throw exceptions when permissions checks fail (#1828)		
+https://github.com/apache/accumulo/commit/58b9de18eb51e91aa9f01338ef5772ca92e329e6	apache/accumulo	1	1	1	7	1	Throw exceptions when permissions checks fail (#1828)		
+https://github.com/apache/camel/commit/46b5f16ae93df05c8a0f70ce2545361af9acb2ff	apache/camel	1	1	1	1	1	CAMEL-15050: Templating components - Variable map to be limited to body/headers		
+https://github.com/apache/camel/commit/46b5f16ae93df05c8a0f70ce2545361af9acb2ff	apache/camel	1	1	1	1	1	CAMEL-15050: Templating components - Variable map to be limited to body/headers		
+https://github.com/apache/wicket/commit/4c437fef16e9c8705cd79246eae67993077490f4	apache/wicket	1	1	0	3	1	allow non-Wicket markup to be served from PackageResource		
+https://github.com/apache/tika/commit/750d7790c7d8ba766f2794fac79521d5870eadfb	apache/tika	3	2	0	17	1	TIKA-3050 -- add xmp extraction from PSD files		
+https://github.com/google/guava/commit/f89ece5721b2f637fe754937ff1f3c86d80bb196	google/guava	3	3	3	11	1	Avoid presizing arrays.		
+https://github.com/google/guava/commit/f89ece5721b2f637fe754937ff1f3c86d80bb196	google/guava	3	3	3	11	1	Avoid presizing arrays.		
+https://github.com/apache/hadoop/commit/957c56dbe5b1490490c09ddfbca9a4204c7c9d00	apache/hadoop	1	1	4	4	1	Fix merge error.		
+https://github.com/apache/hadoop/commit/d69d0eafdf403351cbb08be461da313cf4d30c3d	apache/hadoop	1	1	4	4	1	Fix merge error.		
+https://github.com/line/armeria/commit/b2aa9f49b46a7b0e03d8b8d753809cd1e8e2016c	line/armeria	7	7	12	26	1	Merge pull request from GHSA-4m6j-23p2-8c54		
+https://github.com/sofastack/sofa-rpc/commit/d08e25824ae9feaf0876adba9acd2938f34759b1	sofastack/sofa-rpc	1	0	0	2	1	Merge pull request from GHSA-7q8p-9953-pxvr		
+https://github.com/ClickHouse/clickhouse-java/commit/4f8d9303eb991b39ec7e7e34825241efa082238a	ClickHouse/clickhouse-java	9	8	21	27	1	Mask sensitive option in log		
+https://github.com/jetty/jetty.project/commit/0839a208cdc3fcfe25206a77af59ba9fda260188	jetty/jetty.project	6	6	7	18	1	Fixes #11259 - HTTP/2 connection not closed after idle timeout when TCP congested. (#11267)		
+https://github.com/apache/sling-org-apache-sling-servlets-resolver/commit/b54d4e6693e0bcd63a97a0328f4f065b8a81b75e	apache/sling-org-apache-sling-servlets-resolver	2	2	5	9	1	SLING-12233 : Ignore resource type with invalid paths		
+https://github.com/apache/james-mime4j/commit/9dec5df2a588fed8027839815daefa79ee66efd1#diff-b030cd98dcf3305783e5eb00df6f0580d1a01cb9ea5b978de7be659c7e5b08f7	apache/james-mime4j	2	1	2	4	1	[FIX] Prevent header injection with MIME4J DOM (#91)		
+https://github.com/keycloak/keycloak/commit/6082e492525419d9c4cc5571830187209a4c0430	keycloak/keycloak	8	0	0	11	1	KEYCLOAK-4952: Header information disclosure		
+https://github.com/dromara/lamp-cloud/commit/31f79b122d85ed1b4f354673212692aa8205437a	dromara/lamp-cloud	6	0	0	4	1	fix: jwt 签名读取配置文件		
+https://github.com/apache/pinot/commit/b672af1b9f2ffdea1312207f63b5f8b90bdd1b56	apache/pinot	3	3	5	13	1	Disable Groovy function by default (#8711)		
+https://github.com/apache/dolphinscheduler/commit/f2cec3e2593ae5b54dcd7aa992081b84b4b4663a	apache/dolphinscheduler	5	0	0	5	1	Only expose necessary actuator endpoints (#12571) (#12794)		
+https://github.com/apache/cocoon/commit/bf7c0057f3fd0e3142e2fa45a8b7c538f74c92a2	apache/cocoon	1	1	0	16	1	COCOON-2372: Fix SQL injection vulnerability for DatabaseCookieAuthenticatorAction.		
+https://github.com/jenkinsci/mq-notifier-plugin/commit/46c9f228a3317eb87562bc3d99f7e184bdcecbfe	jenkinsci/mq-notifier-plugin	4	3	8	6	1	SECURITY-3180		
+https://github.com/apache/shenyu/commit/1fd33d5aa032e8e71e7e40b229d74e9f88745923	apache/shenyu	2	2	6	10	1	[Task #4774] <The access layer interface for the apidoc function only allows requests for gateway addresses within the whitelist.> (#4776)		
+https://github.com/jline/jline3/commit/f3c60a3e6255e8e0c20d5043a4fe248446f292bb	jline/jline3	1	1	6	0	1	GroovyEngine.execute cause an OOM exception	 fixes #909	
+https://github.com/json-path/JsonPath/commit/71a09c1193726c010917f1157ecbb069ad6c3e3b	json-path/JsonPath	1	1	1	1	1	Check for the existence of the next significant bracket (#985)		
+https://github.com/OWASP/java-html-sanitizer/commit/be33ec6962fa3938ec028873e269632d5d8fa55a	OWASP/java-html-sanitizer	4	1	0	10	1	Render style tag content more strictly.		
+https://github.com/apereo/java-cas-client/commit/ae37092100c8eaec610dab6d83e5e05a8ee58814	apereo/java-cas-client	2	2	2	3	1	CASC-228 URL Encode Paramaters Passed to Server via Validate		
+https://github.com/hazelcast/hazelcast/commit/2800fcb4f115e17f24621d7972260c539139daf4	hazelcast/hazelcast	1	1	6	7	1	[HZ-1202] Make TcpIpConnection.equals more robust (3.12.z) (#21885)		
+https://github.com/jenkinsci/matrix-project-plugin/commit/f7a5b24905f69896234da34250171c1be80cddb4	jenkinsci/matrix-project-plugin	2	2	1	0	1	SECURITY-3289		
+https://github.com/jenkinsci/translation-plugin/commit/1287c8ead6adc891210b8b9fbc33f07adebf720d	jenkinsci/translation-plugin	1	1	0	1	1	[SECURITY-507] Add @RequirePOST for the submit		
+https://github.com/apache/tiles/commit/0cb657b1c4cdd839e4bf4c529c8ba0c344a7a8ac	apache/tiles	2	0	0	2	1	TILES-351 Fixed some links.		
+https://github.com/Adobe-Consulting-Services/acs-aem-commons/commit/14d769c86606c4ce9a93c47a19f87e1ad72788d6	Adobe-Consulting-Services/acs-aem-commons	2	0	0	4	1	fixes to page compare and version compare tools		
+https://github.com/apache/sling-org-apache-sling-app-cms/commit/540be07c6fd0af01c8ddb6fca39b06d8e9a60e5c	apache/sling-org-apache-sling-app-cms	115	0	1	650	1	Fixing use if sling:encode		
+https://github.com/eclipse-jdt/eclipse.jdt.core/commit/38dd2a878f45cdb3d8d52090f1d6d1b532fd4c4d	eclipse-jdt/eclipse.jdt.core	9	5	5	11	1	Refactor XML parsing		
+https://github.com/eclipse-platform/eclipse.platform.ui/commit/f243cf0a28785b89b7c50bf4e1cce48a917d89bd	eclipse-platform/eclipse.platform.ui	57	11	26	89	1	Refactor XML handling		
+https://github.com/eclipse-platform/eclipse.platform.ui/commit/f243cf0a28785b89b7c50bf4e1cce48a917d89bd	eclipse-platform/eclipse.platform.ui	57	11	26	89	1	Refactor XML handling		
+https://github.com/wso2/carbon-governance/commit/f0270c1e36083355dabc79a824e676161e365d20	wso2/carbon-governance	1	1	0	2	1	Merge pull request #340 from Chamindu36/my_master		
+https://github.com/javaserverfaces/mojarra/commit/082c5fe3504ef49419c9b74eaac31a73413af809	javaserverfaces/mojarra	0	0	0	0	0	None		
+https://github.com/apache/beam/commit/a7dd23d95d2d214b4110781b5a28802bd43b834b	apache/beam	2	2	0	7	1	A fix for some TLS issues in the MongoDB IO		
+https://github.com/akka/akka-http/commit/da863048095dc3baef42ca9395ef0f6950d7fdc6	akka/akka-http	1	0	0	0	1	fix: Use NIO for creating tmp files (#4261)		
+https://github.com/hapifhir/org.hl7.fhir.core/commit/909f7e64fea6532a00b3eb8904bf620fc3cae6d1	hapifhir/org.hl7.fhir.core	9	9	42	95	1	Additional zip-slip tests (#1162)		
+https://github.com/apache/hbase/commit/cb3b06d773a83f007abec55173185402cafa5648	apache/hbase	60	57	584	278	1	HBASE-25568 Upgrade Thrift jar to fix CVE-2020-13949 (#3085)		
+https://github.com/apache/archiva-redback-core/commit/68a7bc4c2ad5a01e8b61431dc0cd3d1809eaa7f1	apache/archiva-redback-core	3	3	4	16	1	Improving LDAP filters by escaping characters		
+https://github.com/apache/shiro/commit/83d8dacd273c8f6d70e6b1aa4f240d4f7a408c27	apache/shiro	1	1	1	3	1	Merge pull request #223 from bmhm/SHIRO-766		
+https://github.com/apache/camel/commit/36b55f9cfa50a2056c70f98d66c29a95ddc724e1	apache/camel	11	8	44	71	1	Merge pull request #3692 from apache/CAMEL-14811		
+https://github.com/apache/openmeetings/commit/8037fca2a31bb0038c115f9ac5281103fe4ded14	apache/openmeetings	6	6	12	15	1	no jira: fallback mechanism for ICrypt is implemented		
+https://github.com/apereo/cas/commit/1808d979b784500d4b4dd846003a0230f326b57d	apereo/cas	5	4	3	10	1	Backport MFA Gauth improvement		
+https://github.com/atomix/atomix/commit/a8534d88ee7aa80e4e9f3b177a6e6e60353b9c71#diff-437de34c7c375d26c3181f0db1d9388767cb58834ab45bebcbbb98a20067636dR573	atomix/atomix	0	0	0	0	0	None		
+https://github.com/alibaba/nacos/commit/13f5810751485de07d8746f21fe1e271e24e3473	alibaba/nacos	94	81	231	602	1	Merge pull request #2266 from nkorange/feature_access_control		
+https://github.com/apache/zeppelin/commit/409235e8db2ac370eed22d73a67d0771e886f907	apache/zeppelin	8	8	70	73	1	[Security] Notebook permission bypass vulnerability		
+https://github.com/diffplug/spotless/commit/b2e61c3197a90becd1375b45549e910ac869aa29	diffplug/spotless	3	0	0	3	1	Bump eclipse bundled deps to https.  Doesn't work yet beacuse http://dist.springsource.org/ doesn't support SSL.		
+https://github.com/apache/struts/commit/01584fabc74635d63a1b2670f18d8fcd1ee046cc	apache/struts	2	2	2	2	1	WW-4213 Sanitises input param namespace to avoid XSS		
+https://github.com/apache/nifi/commit/58d2ca2e2c2a54f4709422470f8303e8398c768c	apache/nifi	13	0	98	80	1	NIFI-3906 Added formatting to tables.		
+https://github.com/keycloak/keycloak/commit/0cb5ba0f6e83162d221681f47b470c3042eef237	keycloak/keycloak	1	1	2	2	1	KEYCLOAK-4160		
+https://github.com/apache/tomcat/commit/cca12473573cb37d38d95fab48d2fae07fb6d1a4	apache/tomcat	2	1	2	6	1	Ensure IOException on request read always triggers error handling		
+https://github.com/apache/tomcat/commit/7a2d8818fcea0b51747a67af9510ce7977245ebd	apache/tomcat	2	1	3	7	1	Ensure IOException on request read always triggers error handling		
+https://github.com/apache/tomcat/commit/b5776d769bffeade865061bc8ecbeb2b56167b08	apache/tomcat	2	1	2	6	1	Ensure IOException on request read always triggers error handling		
+https://github.com/apache/tomcat/commit/aa92971e879a519384c517febc39fd04c48d4642	apache/tomcat	2	1	3	7	1	Ensure IOException on request read always triggers error handling		
+https://github.com/apache/tomcat/commit/30f8063d7a9b4c43ae4722f5e382a76af1d7a6bf	apache/tomcat	13	4	10	18	1	Improve handling of failures during recycle() methods		
+https://github.com/apache/tomcat/commit/d6db22e411307c97ddf78315c15d5889356eca38	apache/tomcat	14	4	10	19	1	Improve handling of failures during recycle() methods		
+https://github.com/apache/tomcat/commit/44d05d75d696ca10ce251e4e370511e38f20ae75	apache/tomcat	14	4	10	19	1	Improve handling of failures during recycle() methods		
+https://github.com/apache/tomcat/commit/9375d67106f8df9eb9d7b360b2bef052fe67d3d4	apache/tomcat	14	4	10	19	1	Improve handling of failures during recycle() methods		
+https://github.com/apache/tomcat/commit/30f8063d7a9b4c43ae4722f5e382a76af1d7a6bf	apache/tomcat	13	4	10	18	1	Improve handling of failures during recycle() methods		
+https://github.com/apache/tomcat/commit/44d05d75d696ca10ce251e4e370511e38f20ae75	apache/tomcat	14	4	10	19	1	Improve handling of failures during recycle() methods		
+https://github.com/apache/tomcat/commit/1fc9f58	apache/tomcat	2	1	7	5	1	Refactor JMX remote RMI registry creation		
+https://github.com/apache/tomcat/commit/6d66e99ef85da93e4d2c2a536ca51aa3418bfaf4	apache/tomcat	6	5	1	11	1	Use java.nio.file.Path for consistent sub-directory checking		
+https://github.com/apache/tomcat/commit/4785433a226a20df6acbea49296e1ce7e23de453	apache/tomcat	6	5	1	11	1	Use java.nio.file.Path for consistent sub-directory checking		
+https://github.com/apache/tomcat/commit/93f0cc403a9210d469afc2bd9cf03ab3251c6f35	apache/tomcat	6	5	1	11	1	Use java.nio.file.Path for consistent sub-directory checking		
+https://github.com/apache/tomcat/commit/74b105657ffbd1d1de80455f03446c3bbf30d1f5	apache/tomcat	7	6	5	20	1	Use consistent approach for sub-directory checking		
+https://github.com/apache/tomcat80/commit/9e700b93e3bf5c605267d20568a964169f9e0b79	apache/tomcat80	2	1	1	4	1	"Fix https://bz.apache.org/bugzilla/show_bug.cgi?id=62067 Correctly apply security constraints mapped to the context root using a URL pattern of """""		
+https://github.com/apache/tomcat/commit/723ea6a5bc5e7bc49e5ef84273c3b3c164a6a4fd	apache/tomcat	2	1	1	4	1	"Fix https://bz.apache.org/bugzilla/show_bug.cgi?id=62067 Correctly apply security constraints mapped to the context root using a URL pattern of """""		
+https://github.com/apache/tomcat80/commit/9e700b93e3bf5c605267d20568a964169f9e0b79	apache/tomcat80	2	1	1	4	1	"Fix https://bz.apache.org/bugzilla/show_bug.cgi?id=62067 Correctly apply security constraints mapped to the context root using a URL pattern of """""		
+https://github.com/apache/tomcat/commit/723ea6a5bc5e7bc49e5ef84273c3b3c164a6a4fd	apache/tomcat	2	1	1	4	1	"Fix https://bz.apache.org/bugzilla/show_bug.cgi?id=62067 Correctly apply security constraints mapped to the context root using a URL pattern of """""		
+https://github.com/spring-projects/spring-framework/commit/7ec5c994c147f0e168149498b1c9d4a249d69e87	spring-projects/spring-framework	1	1	0	0	1	Update user info pattern		
+https://github.com/spring-projects/spring-framework/commit/b11ff966521cd1b4038b3b0d876ff0956e7ca8de	spring-projects/spring-framework	1	1	0	0	1	Update user info pattern		
+https://github.com/spring-projects/spring-framework/commit/120ea0a51c63171e624ca55dbd7cae627d53a042	spring-projects/spring-framework	1	1	0	0	1	Update user info pattern		
+https://github.com/spring-projects/spring-framework/commit/c18784678df489d06a70e54fcddb5e3821d4b00c	spring-projects/spring-framework	3	2	2	8	1	Reduce allocations in server conventions		
+https://github.com/spring-projects/spring-framework/commit/c8e320019ffe7298fc4cbeeb194b2bfd6389b6d9	spring-projects/spring-framework	1	1	3	3	1	HttpRange validates requested ranges		
+https://github.com/spring-projects/spring-framework/commit/423aa28ed584b4ff6e5bad218c09beef5e91951e	spring-projects/spring-framework	1	1	3	3	1	HttpRange validates requested ranges		
+https://github.com/spring-projects/spring-framework/commit/044772641d12b9281185f6cf50f8485b8747132c	spring-projects/spring-framework	1	1	4	3	1	HttpRange validates requested ranges		
+https://github.com/spring-projects/spring-framework/commit/dd011c991ce801660ec2be7979f3fc6462f29289	spring-projects/spring-framework	9	8	22	24	1	Merge branch '5.2.x' into master		
+https://github.com/spring-projects/spring-framework/commit/dd011c991ce801660ec2be7979f3fc6462f29289	spring-projects/spring-framework	9	8	22	24	1	Merge branch '5.2.x' into master		
+https://github.com/spring-projects/spring-framework/commit/dd011c991ce801660ec2be7979f3fc6462f29289	spring-projects/spring-framework	9	8	22	24	1	Merge branch '5.2.x' into master		
+https://github.com/spring-projects/spring-framework/commit/dd011c991ce801660ec2be7979f3fc6462f29289	spring-projects/spring-framework	9	8	22	24	1	Merge branch '5.2.x' into master		
+https://github.com/apache/kafka/commit/d2932ad370c5b56edac9d99e6d75f199537a569f	apache/kafka	1	0	0	6	1	MINOR: additional check to follower fetch handling (#4448)		
+https://github.com/apache/kafka/commit/580f743c3ce633241d6076ce83fb778cea86a1f6	apache/kafka	1	0	0	4	1	MINOR: additional check to follower fetch handling (#4447)		
+https://github.com/apache/kafka/commit/91ee2748f366fa99a6342536698de168e1f85e8e	apache/kafka	1	0	0	2	1	MINOR: additional check to follower fetch handling  (#4433)		
+https://github.com/apache/kafka/commit/d2932ad370c5b56edac9d99e6d75f199537a569f	apache/kafka	1	0	0	6	1	MINOR: additional check to follower fetch handling (#4448)		
+https://github.com/apache/kafka/commit/580f743c3ce633241d6076ce83fb778cea86a1f6	apache/kafka	1	0	0	4	1	MINOR: additional check to follower fetch handling (#4447)		
+https://github.com/apache/kafka/commit/91ee2748f366fa99a6342536698de168e1f85e8e	apache/kafka	1	0	0	2	1	MINOR: additional check to follower fetch handling  (#4433)		
+https://github.com/apache/kafka/commit/d2932ad370c5b56edac9d99e6d75f199537a569f	apache/kafka	1	0	0	6	1	MINOR: additional check to follower fetch handling (#4448)		
+https://github.com/apache/kafka/commit/580f743c3ce633241d6076ce83fb778cea86a1f6	apache/kafka	1	0	0	4	1	MINOR: additional check to follower fetch handling (#4447)		
+https://github.com/apache/kafka/commit/91ee2748f366fa99a6342536698de168e1f85e8e	apache/kafka	1	0	0	2	1	MINOR: additional check to follower fetch handling  (#4433)		
+https://github.com/keycloak/keycloak/commit/1241bd291901667a13506d6fb123ba4344e618ee	keycloak/keycloak	1	1	6	14	1	Fix lowerCaseHostname to lower-case scheme and host properly Closes https://github.com/keycloak/keycloak/issues/24792		
+https://github.com/keycloak/keycloak/commit/5c6c55945a384bfd82e51283096204dcb6f63d91	keycloak/keycloak	1	1	0	8	1	Improper Client Certificate Validation for OAuth/OpenID clients (#20)		
+https://github.com/keycloak/keycloak/commit/b2e91105315ccf2c1df549b4f6c5948322cbfd1b	keycloak/keycloak	1	1	1	2	1	Strip off user-info from redirect URI when validating using wildcard (#61)		
+https://github.com/keycloak/keycloak/commit/30d0e9d22dae51392e5a3748a1c68c116667359a	keycloak/keycloak	3	2	1	8	1	Fixes for OOB endpoint and KeycloakSanitizer (#16774)		
+https://github.com/stianst/keycloak/commit/f842837ad2740da36c60958ea6654b1ef3bc5431	stianst/keycloak	4	4	5	4	1	None		
+https://github.com/keycloak/keycloak/commit/853a6d73276849877819f2dc23133557f6e1e601	keycloak/keycloak	7	7	4	16	1	KEYCLOAK-17000 Adding server tmp directory inside the auth-server home directory		
+https://github.com/keycloak/keycloak/commit/04e6244c387a1bde86184635a0049537611e3915	keycloak/keycloak	3	3	4	9	1	Verify holder of the device code (#21)		
+https://github.com/keycloak/keycloak/commit/04e6244c387a1bde86184635a0049537611e3915	keycloak/keycloak	3	3	4	9	1	Verify holder of the device code (#21)		
+https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9	protocolbuffers/protobuf	2	1	11	15	1	Clean up TextFormat parser (#10673)		
+https://github.com/protocolbuffers/protobuf/commit/24b65038cfe36191268fda355aca0e43d3ecbcbe	protocolbuffers/protobuf	2	1	11	15	1	Fix TextFormat parser (#10674)		
+https://github.com/protocolbuffers/protobuf/commit/b0e8e607dc1ace17c823276d3384eeda775bbd76	protocolbuffers/protobuf	39	23	139	290	1	Refactoring Java parsing (3.19.x) (#10667)		
+https://github.com/protocolbuffers/protobuf/commit/42e47e5a3fa7219b136f6a5de7c74a89a79245c6	protocolbuffers/protobuf	39	23	139	301	1	Refactoring Java parsing (3.16.x) (#10668)		
+https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9	protocolbuffers/protobuf	2	1	11	15	1	Clean up TextFormat parser (#10673)		
+https://github.com/protocolbuffers/protobuf/commit/ae6d69dba64334d77dfb633a146c479982620c1c	protocolbuffers/protobuf	39	23	141	307	1	Refactoring Java parsing (3.20.x) (#10666)		
+https://github.com/protocolbuffers/protobuf/commit/b0e8e607dc1ace17c823276d3384eeda775bbd76	protocolbuffers/protobuf	39	23	139	290	1	Refactoring Java parsing (3.19.x) (#10667)		
+https://github.com/protocolbuffers/protobuf/commit/42e47e5a3fa7219b136f6a5de7c74a89a79245c6	protocolbuffers/protobuf	39	23	139	301	1	Refactoring Java parsing (3.16.x) (#10668)		
+https://github.com/apache/camel/commit/f281a06a54b4885c155feb2bc9a3398a6735c5a9	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/camel/commit/4af24a154d4c0599f47efad0a44921c66b9ef7c5	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/camel/commit/9a44c6c1974f15ff481cd38b3e672843fb9d12c3	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/camel/commit/11f68102c1d390c5264bc6c49d79059fdbf1cb16	apache/camel	12	12	7	12	1	(chores) Ensures logging consistency for events		
+https://github.com/apache/camel/commit/36b55f9cfa50a2056c70f98d66c29a95ddc724e1	apache/camel	11	8	44	71	1	Merge pull request #3692 from apache/CAMEL-14811		
+https://github.com/apache/camel/commit/7d19340bcdb42f7aae584d9c5003ac4f7ddaee36	apache/camel	1	1	2	1	1	XML External Entity (XXE) injection in XmlConverter. Thanks to Stephan Siano for the patch.		
+https://github.com/apache/camel/commit/7d19340bcdb42f7aae584d9c5003ac4f7ddaee36	apache/camel	1	1	2	1	1	XML External Entity (XXE) injection in XmlConverter. Thanks to Stephan Siano for the patch.		
+https://github.com/Graylog2/graylog2-server/commit/7f8ef7fa8edf493106d5ef6f777d4da02c5194d9#diff-f9147c088b0c6c14d129a631c0bd352de6469624948c0ebf2af2c8119071c8cdR228	Graylog2/graylog2-server	10	8	21	38	1	Restrict classes allowed for cluster config and event types (#18165) (#18180)		
+https://github.com/Graylog2/graylog2-server/commit/75ef2b8d60e7d67f859b79fe712c8ae7b2e861d8	Graylog2/graylog2-server	9	8	21	37	1	Restrict classes allowed for cluster config and event types (#18165) (#18179)		
+https://github.com/Graylog2/graylog2-server/commit/1596b749db86368ba476662f23a0f0c5ec2b5097	Graylog2/graylog2-server	2	1	0	4	1	Merge pull request from GHSA-3xf8-g8gr-g7rh		
+https://github.com/Graylog2/graylog2-server/commit/1596b749db86368ba476662f23a0f0c5ec2b5097	Graylog2/graylog2-server	2	1	0	4	1	Merge pull request from GHSA-3xf8-g8gr-g7rh		
+https://github.com/Graylog2/graylog2-server/commit/1596b749db86368ba476662f23a0f0c5ec2b5097	Graylog2/graylog2-server	2	1	0	4	1	Merge pull request from GHSA-3xf8-g8gr-g7rh		
+https://github.com/Graylog2/graylog2-server/commit/1596b749db86368ba476662f23a0f0c5ec2b5097	Graylog2/graylog2-server	2	1	0	4	1	Merge pull request from GHSA-3xf8-g8gr-g7rh		
+https://github.com/grails/grails-core/commit/c8bb44e13b905d32291aeaace31b762ee8a76e5a	grails/grails-core	1	0	4	0	1	Improvements in SimpleDataBinder (#12606) (#12621)		
+https://github.com/grails/grails-core/commit/d3edcf2a1ab0bb1debc10c8d96e799886e90e124	grails/grails-core	1	0	4	0	1	Improvements in SimpleDataBinder (#12606)		
+https://github.com/grails/grails-core/commit/d39324446b81774a8e7af9cdace9c00ede2ede16	grails/grails-core	1	0	4	0	1	Improvements in SimpleDataBinder (#12606) (#12620)		
+https://github.com/grails/grails-core/commit/34bbedb1497eb25bd9cb0d876192877aad777005	grails/grails-core	1	0	4	0	1	Improvements in SimpleDataBinder (#12606)		
+https://github.com/grails/grails-core/commit/313206292a7db9dba7c969294d6f0e465b5a713f	grails/grails-core	8	8	35	45	1	"support for new ""bindable"" constraint"		
+https://github.com/apache/shiro/commit/3b80f5c8e5a95ba31e92e4825ecc0ba3148b555a	apache/shiro	1	1	11	0	1	The InvalidRequestFilter is more flexible		
+https://github.com/apache/shiro/commit/8400d08d5eac0bc4fae99d28c5adc82dd8a86eda	apache/shiro	2	2	13	0	1	The InvalidRequestFilter is more flexible Allowing encoded periods and forward slashes can now be independently enabled		
+https://github.com/apache/shiro/commit/b90f91875e5e18c4805013c2fa0567b1700f5a96	apache/shiro	1	1	6	7	1	The context path is no longer used when determining the path application path		
+https://github.com/apache/shiro/commit/3b80f5c8e5a95ba31e92e4825ecc0ba3148b555a	apache/shiro	1	1	11	0	1	The InvalidRequestFilter is more flexible		
+https://github.com/apache/shiro/commit/83d8dacd273c8f6d70e6b1aa4f240d4f7a408c27	apache/shiro	1	1	1	3	1	Merge pull request #223 from bmhm/SHIRO-766		
+https://github.com/apache/tomcat/commit/bef3f40	apache/tomcat	2	1	6	5	1	Refactor JMX remote RMI registry creation		
+https://github.com/apache/tomcat/commit/a91d7db	apache/tomcat	2	1	7	5	1	Refactor JMX remote RMI registry creation		
+https://github.com/apache/tomcat/commit/1fc9f58	apache/tomcat	2	1	7	5	1	Refactor JMX remote RMI registry creation		
+https://github.com/apache/tomcat/commit/bef3f40	apache/tomcat	2	1	6	5	1	Refactor JMX remote RMI registry creation		
+https://github.com/apache/tomcat/commit/1fc9f58	apache/tomcat	2	1	7	5	1	Refactor JMX remote RMI registry creation		
+"https://github.com/apache/inlong/commit/1607837be28438c0ccae8da15afb653f2afed090	"	apache/inlong	0	0	0	0	1	None		
+"https://github.com/apache/inlong/commit/d674bfe28416aff728eabafc1f6b8bb9ba5a5b8e	"	apache/inlong	0	0	0	0	1	None		
+https://github.com/apache/inlong/commit/46c4e96a84839bd540f47c659c9d8576e393da02	apache/inlong	1	1	0	3	1	[INLONG-8603][Manager] Fix the vulnerability to security attacks for the MySQL JDBC URL (#8604)		
+https://github.com/apache/inlong/commit/49cbf96ba228b99590cab733011462139b2fea69	apache/inlong	2	2	0	8	1	[INLONG-8813][Manager] Replacing whitespace characters in MySQL JDBC URL (#8814)		
+https://github.com/plantuml/plantuml/commit/b32500bb61ae617bb312496d6d832e4be8190797	plantuml/plantuml	12	11	41	101	1	fix: improve filelist support and nwdiag		
+https://github.com/plantuml/plantuml/commit/b32500bb61ae617bb312496d6d832e4be8190797	plantuml/plantuml	12	11	41	101	1	fix: improve filelist support and nwdiag		
+https://github.com/plantuml/plantuml/commit/fbe7fa3b25b4c887d83927cffb1009ec6cb8ab1e	plantuml/plantuml	13	12	12	23	1	feat: remove legacy ALLOW_INCLUDE use PLANTUML_SECURITY_PROFILE instead https://github.com/plantuml/plantuml-server/issues/232		
+https://github.com/plantuml/plantuml/commit/fbe7fa3b25b4c887d83927cffb1009ec6cb8ab1e	plantuml/plantuml	13	12	12	23	1	feat: remove legacy ALLOW_INCLUDE use PLANTUML_SECURITY_PROFILE instead https://github.com/plantuml/plantuml-server/issues/232		
+https://github.com/spring-projects/spring-framework/commit/8010de8b63057af06984df5c7550ba99d006e909	spring-projects/spring-framework	2	2	4	10	1	Improve diagnostics in SpEL for `matches` operator		
+https://github.com/spring-projects/spring-framework/commit/26e0343c1638d59a28a7991bfcaed32dbc4996e4	spring-projects/spring-framework	2	2	4	11	1	Improve diagnostics in SpEL for `matches` operator		
+https://github.com/spring-projects/spring-framework/commit/b9b31afcc905cd9d5e63739ff5920d849f7f20f0	spring-projects/spring-framework	2	2	4	11	1	Improve diagnostics in SpEL for `matches` operator		
+https://github.com/spring-projects/spring-framework/commit/b9b31afcc905cd9d5e63739ff5920d849f7f20f0	spring-projects/spring-framework	2	2	4	11	1	Improve diagnostics in SpEL for `matches` operator		
+https://github.com/spring-projects/spring-framework/commit/e02ff3a0da50744b0980d5d665fd242eedea7675	spring-projects/spring-framework	1	1	0	0	1	MimeTypeUtils uses SecureRandom		
+https://github.com/spring-projects/spring-framework/commit/ab2410c754b67902f002bfcc0c3895bd7772d39f	spring-projects/spring-framework	1	1	0	1	1	MimeTypeUtils uses SecureRandom		
+https://github.com/apache/tomcat/commit/d6251d1cfb683f1bdd00ed022ac8e9b9a7e7792c	apache/tomcat	2	0	0	3	1	Fix CVE-2022-34305 XSS in the examples web application		
+https://github.com/apache/tomcat/commit/1a7e95d9c3ef18c4efb5eb997fd1553a71dc6c80	apache/tomcat	2	0	0	3	1	Fix CVE-2022-34305 XSS in the examples web application		
+https://github.com/apache/tomcat/commit/8b60af90b99945379c2d1003277e0cabc6776bac	apache/tomcat	2	0	0	3	1	Fix CVE-2022-34305 XSS in the examples web application		
+https://github.com/apache/tomcat/commit/5f6c88b054b0e4fbccff8b7f15974ed55d59a9f7	apache/tomcat	2	0	0	2	1	Fix CVE-2022-34305 XSS in the examples web application		
+https://github.com/jenkinsci/htmlpublisher-plugin/commit/c0eed940e65ea90f9b5ba21aa3d953546d5cd8ad	jenkinsci/htmlpublisher-plugin	2	1	2	0	1	SECURITY-3302		
+https://github.com/jenkinsci/htmlpublisher-plugin/commit/8bf2e2297a86ad50f7567fb953b2f8ec18b2891b	jenkinsci/htmlpublisher-plugin	1	1	0	7	1	SECURITY-3301		
+https://github.com/jenkinsci/htmlpublisher-plugin/commit/6b840248dd0d691bbac9b515cd750b3f925909b2	jenkinsci/htmlpublisher-plugin	2	1	5	2	1	SECURITY-3303		
+https://github.com/ls1intum/Ares/commit/af4f28a56e2fe600d8750b3b415352a0a3217392	ls1intum/Ares	0	0	0	0	1	Merge pull request from GHSA-883x-6fch-6wjx		
+https://github.com/ls1intum/Ares/commit/6760caed2492956834f6e6141a9ca42000a9a550	ls1intum/Ares	0	0	0	0	1	Fix GHSA-98hq-4wmw-98w9		
+https://github.com/ls1intum/Ares/commit/4c146ff85a0fa6022087fb0cffa6b8021d51101f	ls1intum/Ares	1	0	0	2	1	Validate maven pom.xml if available for trusted package enforcer rules		
+https://github.com/undertow-io/undertow/commit/e5071e52b72529a14d3ec436ae7102cea5d918c4	undertow-io/undertow	4	4	8	11	1	[UNDERTOW-2212] CVE-2022-4492 Server identity in https connection is not checked by the undertow client		
+https://github.com/undertow-io/undertow/commit/a4d3b167126a803cc4f7fb740dd9a6ecabf59342	undertow-io/undertow	4	4	8	11	1	[UNDERTOW-2212] CVE-2022-4492 Server identity in https connection is not checked by the undertow client		
+https://github.com/undertow-io/undertow/commit/9bf05b765e222dd106fee9b46314061b18b7275e	undertow-io/undertow	1	1	1	1	1	Merge pull request #736 from cakofony/ckozak/exchange_tostring		
+https://github.com/resteasy/Resteasy/commit/240da98bc6437a44b3b267cb6d0d8bac3691b2f7	resteasy/Resteasy	21	10	12	137	1	Merge pull request #521 from ronsigal/master		
+https://github.com/qos-ch/logback/commit/9c782b45be4abdafb7e17481e24e7354c2acd1eb	qos-ch/logback	2	2	3	5	1	prevent DOS attacks using on malicious serialized input		
+https://github.com/qos-ch/logback/commit/b8eac23a9de9e05fb6d51160b3f46acd91af9731	qos-ch/logback	2	2	3	5	1	prevent DOS attacks using on malicious serialized input		
+https://github.com/qos-ch/logback/commit/bb095154be011267b64e37a1d401546e7cc2b7c3	qos-ch/logback	3	3	14	9	1	fix CVE-2023-6378		
+https://github.com/eclipse/jetty.project/commit/c3b6b47915458199f39b08d542669d31fddb8901	eclipse/jetty.project	12	12	6	60	1	Use ISO-8859-1 for encoding/decoding in huffman/hpack/qpack		
+https://github.com/jetty/jetty.project/commit/ebec7d2ea3427298a8922210177f84c0fab58bd6	jetty/jetty.project	31	31	7	129	1	Issue #9554 - move common hpack/qpack code to jetty-http		
+https://github.com/eclipse/jetty.project/commit/c7a4b05fc735e73e7522cb617c079045b709957b	eclipse/jetty.project	18	18	12	176	1	backport the jetty-http Huffman encoders/decoders from 10.0.x (#10546)		
+https://github.com/checkstyle/checkstyle/commit/c46a16d177e6797895b195c288ae9a9a096254b8	checkstyle/checkstyle	1	1	1	1	1	Issue #7468: disable 'external-parameter-entities' feature by default		
+https://github.com/checkstyle/checkstyle/commit/c46a16d177e6797895b195c288ae9a9a096254b8	checkstyle/checkstyle	1	1	1	1	1	Issue #7468: disable 'external-parameter-entities' feature by default		
+https://github.com/checkstyle/checkstyle/commit/c46a16d177e6797895b195c288ae9a9a096254b8	checkstyle/checkstyle	1	1	1	1	1	Issue #7468: disable 'external-parameter-entities' feature by default		
+https://github.com/apache/cxf/commit/1338469f7d25cfcda75b547c68bed95bd97903ac	apache/cxf	3	3	1	3	1	Doing a better bytes comparison in some of JAXRS OAuth2/Jose code		
+https://github.com/apache/cxf/commit/555843f9563ccfc2ca1afb2950aebb4505d7711b	apache/cxf	3	3	1	3	1	Doing a better bytes comparison in some of JAXRS OAuth2/Jose code		
+https://github.com/apache/cxf/commit/1338469f7d25cfcda75b547c68bed95bd97903ac	apache/cxf	3	3	1	3	1	Doing a better bytes comparison in some of JAXRS OAuth2/Jose code		
+https://github.com/quarkusio/quarkus/commit/c8e69bd467938e57972460db4398d04d26670ecb	quarkusio/quarkus	4	2	3	7	1	Merge pull request #37136 from jmartisk/2.13-graphql-websocket-2		
+https://github.com/apache/unomi/commit/789ae8e820c507866b9c91590feebffa4e996f5e	apache/unomi	10	4	14	36	1	Make it possible to white list and black list classes used in OGNL and MVEL2 scripting languages (#158)		
+https://github.com/apache/unomi/commit/789ae8e820c507866b9c91590feebffa4e996f5e	apache/unomi	10	4	14	36	1	Make it possible to white list and black list classes used in OGNL and MVEL2 scripting languages (#158)		
+https://github.com/apache/james-project/commit/d5cd8bb098aa78d8d62c9645f3c532689ef1cb03	apache/james-project	1	1	3	5	1	[FIX] Enforce CRLF as part of SMTP DATA transaction (#1877)		
+https://github.com/apache/james-project/commit/d1ef102540e504c067b6c1721a6f1e7eee9c6fc6	apache/james-project	1	1	2	5	1	[FIX] Enforce CRLF as part of SMTP DATA transaction (#1878)		
+https://github.com/yamcs/yamcs/commit/2b98964d8313ce7c7ab4505e6d8f632ed310cd58	yamcs/yamcs	6	4	6	14	1	Merge pull request #833 from fqqb/next		
+https://github.com/yamcs/yamcs/commit/2b98964d8313ce7c7ab4505e6d8f632ed310cd58	yamcs/yamcs	6	4	6	14	1	Merge pull request #833 from fqqb/next		
+https://github.com/opensearch-project/security/commit/f7c47af244cbe0c0f20fe708d7d8124090b76a9f	opensearch-project/security	22	20	49	115	1	[Backport 2.11] Add early rejection from RestHandler for unauthorized requests (#3418) (#3495)		
+https://github.com/opensearch-project/security/commit/c3e53e20a69dc8eb401653594a130c2a4fd4b6bd	opensearch-project/security	1	1	0	2	1	[Backport 2.11] For read-only tenants filter with allow list		
+https://github.com/jenkinsci/jenkins/commit/df7c4ccda8976c06bf31b8fb9938f26fc38501ca	jenkinsci/jenkins	1	1	1	3	1	[SECURITY-3072]		
+https://github.com/jenkinsci/jenkins/commit/18cb013087fbe9fead1ee8f93fa24a9dfb210f78	jenkinsci/jenkins	1	1	1	3	1	[SECURITY-3072]		
+https://github.com/apache/lucene-solr/commit/bffc5624eff8e2790fb8d29b48385efd063c79d9	apache/lucene-solr	4	3	15	9	1	Merged revision(s) 1390921 from lucene/dev/trunk: SOLR-3895	 SOLR-3614: XML and XSLT UpdateRequestHandler should not try to resolve external entities; fix XML parsing in XPathEntityProcessor to correctly expand named entities	 but ignore external entities
+https://github.com/apache/lucene-solr/commit/bffc5624eff8e2790fb8d29b48385efd063c79d9	apache/lucene-solr	4	3	15	9	1	Merged revision(s) 1390921 from lucene/dev/trunk: SOLR-3895	 SOLR-3614: XML and XSLT UpdateRequestHandler should not try to resolve external entities; fix XML parsing in XPathEntityProcessor to correctly expand named entities	 but ignore external entities
+https://github.com/apache/shiro/commit/f8722302e614c30cff7228fca549a882f98e6e6b	apache/shiro	1	1	1	1	1	Merge pull request #203 from apache/SHIRO-747		
+https://github.com/apache/shiro/commit/f8722302e614c30cff7228fca549a882f98e6e6b	apache/shiro	1	1	1	1	1	Merge pull request #203 from apache/SHIRO-747		
+https://github.com/orientechnologies/orientdb/commit/5dbd6035e4e59259f3e08ba8f1218785f36d1d2d	orientechnologies/orientdb	3	3	1	4	1	Fixed issue #4824 - JSONP is disabled by default		
+https://github.com/orientechnologies/orientdb/commit/f11dbced94cb587f445cb99db08735c023921053	orientechnologies/orientdb	3	3	1	1	1	Fixed issue #4824 about disabling JSONP support		
+https://github.com/DSpace/DSpace/commit/d1dd7d23329ef055069759df15cfa200c8e3	DSpace/DSpace	2	2	0	9	1	[DS-4132] JPSUI resumable upload dir validation		
+https://github.com/DSpace/DSpace/commit/7569c6374aefeafb996e202cf8d631020eda5f24	DSpace/DSpace	2	2	0	9	1	[DS-4132] Fix JSPUI resumable upload path traversal		
+https://github.com/apache/hive/commit/f0419dfaabe31dd7802c37aeebab101265907e1a	apache/hive	4	3	1	34	1	HIVE-20420: Provide a fallback authorizer when no other authorizer is in use (Daniel Dai	 reviewed by Laszlo Pinter	 Thejas Nair)
+https://github.com/apache/qpid-broker-j/commit/adb2a34306d67559ee81db155826dc67a02cc85e	apache/qpid-broker-j	25	24	26	45	1	QPID-8273: [Broker-J] Handle malformed messages		
+https://github.com/apache/qpid-broker-j/commit/adb2a34306d67559ee81db155826dc67a02cc85e	apache/qpid-broker-j	25	24	26	45	1	QPID-8273: [Broker-J] Handle malformed messages		
+https://github.com/kaazing/gateway/commit/5e29765de6f5c61f82cee0e039fe41b8062f19fb#diff-cf1e8c14e54505f60aa10ceb8d5d8ab3	kaazing/gateway	12	10	77	116	1	Merge pull request #871 from danibusu/login-behavior		
+https://github.com/kaazing/gateway/commit/5e29765de6f5c61f82cee0e039fe41b8062f19fb	kaazing/gateway	12	10	77	116	1	Merge pull request #871 from danibusu/login-behavior		
+https://github.com/apache/jspwiki/commit/b17f699a4a099639beebb905cf4e04a8bea63b3c	apache/jspwiki	3	1	0	7	1	2.11.0-M3-git-03 : remove XHRMarkup2Wysiwyg.jsp		
+https://github.com/apache/jspwiki/commit/b17f699a4a099639beebb905cf4e04a8bea63b3c	apache/jspwiki	3	1	0	7	1	2.11.0-M3-git-03 : remove XHRMarkup2Wysiwyg.jsp		
+https://github.com/apache/nifi/commit/58d2ca2e2c2a54f4709422470f8303e8398c768c	apache/nifi	13	0	98	80	1	NIFI-3906 Added formatting to tables.		
+https://github.com/apache/nifi/commit/2dde48002953b490d3ce487082831ba5349e8395	apache/nifi	2	0	0	2	1	[NIFI-3906] Introduce additional validation when handling user-supplied input to ensure appropriate values and output encoding within SlickGrid tables. This closes #1818		
+https://github.com/graphhopper/graphhopper/commit/3bef7ead91d01adfd4fbea459bcc62de1f0279fc	graphhopper/graphhopper	1	1	0	2	1	avoid regex in navigate module (#2304)		
+https://github.com/graphhopper/graphhopper/commit/3bef7ead91d01adfd4fbea459bcc62de1f0279fc	graphhopper/graphhopper	1	1	0	2	1	avoid regex in navigate module (#2304)		
+https://github.com/spring-projects/spring-framework/commit/246a6db1cad205ca9b6fca00c544ab7443ba202c	spring-projects/spring-framework	5	4	10	10	1	Selector header name is exposed for configuration		
+https://github.com/spring-projects/spring-framework/commit/b312a62f643c56ef0a3b830bd6b947d67a844e7d	spring-projects/spring-framework	5	4	11	22	1	Selector header name is exposed for configuration		
+https://github.com/dataease/dataease/commit/bb540e6dc83df106ac3253f331066129a7487d1a	dataease/dataease	1	1	0	1	1	fix: 限制 mysql 非法参数		
+https://github.com/line/centraldogma/commit/8edcf913b88101aff70008156b0881850e005783	line/centraldogma	1	1	0	2	1	Merge pull request from GHSA-34q3-p352-c7q8		
+https://github.com/ClickHouse/clickhouse-java/commit/4f8d9303eb991b39ec7e7e34825241efa082238a	ClickHouse/clickhouse-java	9	8	21	27	1	Mask sensitive option in log		
+https://github.com/apache/linkis/commit/08cbcfca140afebae10e1582ee87721578719ded	apache/linkis	8	5	1	10	1	remove unnecessary log print		
+https://github.com/apache/axis-axis1-java/commit/685c309febc64aa393b2d64a05f90e7eb9f73e06	apache/axis-axis1-java	1	1	1	2	1	Filter out more unsupported protocols in the client class ServiceFactory		
+https://github.com/clojure/clojure/commit/271674c9b484d798484d134a5ac40a6df15d3ac3	clojure/clojure	1	0	0	3	1	CLJ-2204 Disable serialization of proxy classes		
+https://github.com/openjdk/jfx/commit/67c55e51e063d2f9e291ae8dc4877843fa51119c	openjdk/jfx	2	2	4	8	1	8251862: Wrong position of Popup windows at the intersection of 2 screens		
+https://github.com/dromara/lamp-cloud/commit/31f79b122d85ed1b4f354673212692aa8205437a	dromara/lamp-cloud	6	0	0	4	1	fix: jwt 签名读取配置文件		
+https://github.com/apache/shiro/commit/e167a712d6908be2a5c5f2c36fc10ab64a4b256a	apache/shiro	2	1	1	5	1	Add Spring EnvironmentPostProcessor		
+https://github.com/apache/dolphinscheduler/commit/f2cec3e2593ae5b54dcd7aa992081b84b4b4663a	apache/dolphinscheduler	5	0	0	5	1	Only expose necessary actuator endpoints (#12571) (#12794)		
+https://github.com/quarkusio/quarkus/commit/6b711c950f02f1a2082e6d4ea833ac8eef97ac2b	quarkusio/quarkus	3	2	2	8	1	Filter configuration names from the quarkus namespace in the Gradle plugin		
+https://github.com/apache/uima-uimaj/commit/6a8ab16a604401c9e8ec5c5c94e94515371d324b	apache/uima-uimaj	2	2	0	37	1	Issue #339: Drop CasAnnotationViewerApplet and CasTreeViewerApplet		
+https://github.com/apache/iotdb/commit/d747cb89991cacce19e85d7572d5afd7ab32e4a9	apache/iotdb	1	1	2	2	1	[IOTDB-5482][To rel/0.13] Unsafe deserialize map in Sync Tool (#8999)		
+https://github.com/apache/solr/commit/e2bf1f434aad873fbb24c21d46ac00e888806d98	apache/solr	11	8	18	27	1	SOLR-17098: Only use ZK ACLs for default ZK Host		
+https://github.com/GoogleContainerTools/jib/commit/67fa40bc2c484da0546333914ea07a89fe44eaaf	GoogleContainerTools/jib	3	1	0	3	1	Check if file exists when executable path is passed in through jib dockerClient.executable (#3744)		
+https://github.com/richfaces/richfaces/commit/d83ac49866e583065dd9e2d17d50297553b967f5	richfaces/richfaces	5	4	13	20	1	BZ#973878: Added the LookAheadObjectInputStream to whitelist classes for deserialisation		
+https://github.com/apache/incubator-shenyu/commit/d0b552aabf72719c458674d1fec3d35aeaec0f92	apache/incubator-shenyu	11	10	2	18	1	Use SPI refactor PredicateJudge (#1501)		
+https://github.com/apereo/java-cas-client/commit/ae37092100c8eaec610dab6d83e5e05a8ee58814	apereo/java-cas-client	2	2	2	3	1	CASC-228 URL Encode Paramaters Passed to Server via Validate		
+https://github.com/apache/iotdb/commit/89c0ec3b963cb44cf94a1efac8f28a5fc475d214	apache/iotdb	5	4	14	13	1	[To rel/0.13] Optimize pattern matching in Regexp (#7564)		
+https://github.com/nahsra/antisamy/commit/05c52b98bb845b8175b8406bd2f391ce334a05d6	nahsra/antisamy	3	3	6	21	1	Avoid parsing noscript content		
+https://github.com/jenkinsci/release-plugin/commit/fe1660a5ebff2377b6a64214c6012e8615b3f81f	jenkinsci/release-plugin	1	1	1	0	1	[SECURITY-607] Add the RequirePOST annotation		
+https://github.com/rabbitmq/rabbitmq-java-client/commit/714aae602dcae6cb4b53cadf009323ebac313cc8	rabbitmq/rabbitmq-java-client	14	14	23	32	1	Add max inbound message size to ConnectionFactory		
+https://github.com/sbt/io/commit/124538348db0713c80793cb57b915f97ec13188a	sbt/io	1	0	1	8	1	Merge pull request #360 from eed3si9n/wip/zip_issue		
+https://github.com/eclipse-platform/eclipse.platform.swt/commit/bf71db5ddcb967c0863dad4745367b54f49e06ba	eclipse-platform/eclipse.platform.swt	3	1	1	3	1	Refactor XML parsing		
+https://github.com/eclipse-platform/eclipse.platform.ui/commit/f243cf0a28785b89b7c50bf4e1cce48a917d89bd	eclipse-platform/eclipse.platform.ui	57	11	26	89	1	Refactor XML handling		
+https://github.com/stleary/JSON-java/commit/60662e2f8384d3449822a3a1179bfe8de67b55bb	stleary/JSON-java	1	1	0	1	1	Merge pull request #759 from eamonnmcmanus/eofnull		
+https://github.com/wso2/carbon-governance/commit/f0270c1e36083355dabc79a824e676161e365d20	wso2/carbon-governance	1	1	0	2	1	Merge pull request #340 from Chamindu36/my_master		
+https://github.com/eclipse/vorto/commit/f15b81fb76b214fe40be164dfb730434ef49ec35	eclipse/vorto	1	0	0	2	1	Fixes #1434	 updated http to https (#1449)	
+https://github.com/hapifhir/org.hl7.fhir.core/commit/909f7e64fea6532a00b3eb8904bf620fc3cae6d1	hapifhir/org.hl7.fhir.core	9	9	42	95	1	Additional zip-slip tests (#1162)		
+https://github.com/corda/corda/commit/d0c0a1d9ba5754ae9bb8777a8a821d267696b876	corda/corda	5	0	6	11	1	ENT-5430: Fix deserialisation of commands containing generic types. (#6359)		
+https://github.com/spring-projects/spring-integration-extensions/commit/ad398071e205b24c0fb58ae7401ac4a97a7cf759	spring-projects/spring-integration-extensions	8	1	2	68	1	GH-242: Delete original zip only if no errors		
+https://github.com/apache/archiva-redback-core/commit/68a7bc4c2ad5a01e8b61431dc0cd3d1809eaa7f1	apache/archiva-redback-core	3	3	4	16	1	Improving LDAP filters by escaping characters		
+https://github.com/apache/camel/commit/36b55f9cfa50a2056c70f98d66c29a95ddc724e1	apache/camel	11	8	44	71	1	Merge pull request #3692 from apache/CAMEL-14811		
+https://github.com/apache/camel/commit/36b55f9cfa50a2056c70f98d66c29a95ddc724e1	apache/camel	11	8	44	71	1	Merge pull request #3692 from apache/CAMEL-14811		
+https://github.com/HtmlUnit/htmlunit-neko/commit/9d2aecd69223469e40c12ca3edddda09009110cc	HtmlUnit/htmlunit-neko	1	1	1	1	1	fix oom exception		
+https://github.com/apache/shiro/commit/a8018783373ff5e5210225069c9919e071597d5e	apache/shiro	3	2	4	8	1	Updates the default Cipher mode to GCM in AesCipherService		
+https://github.com/fusesource/mqtt-client/commit/2898f10be758decdc85ba6c523cb5be6b9092855	fusesource/mqtt-client	1	1	1	1	1	Better handle the case of parsing malformed MQTT frames		
+https://github.com/apache/ranger/commit/2b3873e9b9628a25e36f4dd5198d3789cbcc5476	apache/ranger	1	0	3	3	1	RANGER-2269 : Implement best coding practices for validating user input		
+https://github.com/junrar/junrar/commit/ad8d0ba8e155630da8a1215cee3f253e0af45817	junrar/junrar	1	1	3	19	1	make Archive slightly more robust against corrupt files.  Add (#8)		
+https://github.com/gwtproject/gwt/commit/4b1e5710d184205116e0e144b4501feb998e40b6	gwtproject/gwt	2	0	4	4	1	Avoid XSS vulnerability by being stricter about how the script element is created.		
+https://github.com/keycloak/keycloak/commit/04e6244c387a1bde86184635a0049537611e3915	keycloak/keycloak	3	3	4	9	1	Verify holder of the device code (#21)		
+https://github.com/apache/druid/commit/57e40e27884c905e91378e8e4ef34b48ce6add84	apache/druid	4	1	2	12	1	Improve search string handling		
+https://github.com/apache/tomcat/commit/0cac540a882220231ba7a82330483cbd5f6b1f96	apache/tomcat	2	1	1	4	1	Report HTTP/2 header parsing errors earlier		
+https://github.com/apache/tomcat/commit/d07c82194edb69d99b438828fe2cbfadbb207843	apache/tomcat	2	1	1	4	1	Report HTTP/2 header parsing errors earlier		
+https://github.com/apache/tomcat/commit/8e03be9f2698f2da9027d40b9e9c0c9429b74dc0	apache/tomcat	2	1	1	4	1	Report HTTP/2 header parsing errors earlier		
+https://github.com/apache/tomcat/commit/810f49d5ff6d64b704af85d5b8d0aab9ec3c83f5	apache/tomcat	2	1	1	4	1	Report HTTP/2 header parsing errors earlier		
+https://github.com/apache/tomcat/commit/b5776d769bffeade865061bc8ecbeb2b56167b08	apache/tomcat	2	1	2	6	1	Ensure IOException on request read always triggers error handling		
+https://github.com/apache/tomcat/commit/aa92971e879a519384c517febc39fd04c48d4642	apache/tomcat	2	1	3	7	1	Ensure IOException on request read always triggers error handling		
+https://github.com/apache/tomcat/commit/7a2d8818fcea0b51747a67af9510ce7977245ebd	apache/tomcat	2	1	3	7	1	Ensure IOException on request read always triggers error handling		
+https://github.com/apache/tomcat/commit/cca12473573cb37d38d95fab48d2fae07fb6d1a4	apache/tomcat	2	1	2	6	1	Ensure IOException on request read always triggers error handling		
+https://github.com/apache/tomcat/commit/86ccc43940861703c2be96a5f35384407522125a	apache/tomcat	2	1	4	6	1	Ensure ReadListener.onError() is fired if client drops the connection		
+https://github.com/apache/tomcat/commit/9b44626e136c89a107dd4458ad4bde6123359fd6	apache/tomcat	2	1	2	6	1	Ensure ReadListener.onError() is fired if client drops the connection		
+https://github.com/apache/tomcat/commit/ce4b154e7b48f66bd98858626347747cd2514311	apache/tomcat	2	1	4	6	1	Ensure ReadListener.onError() is fired if client drops the connection		
+https://github.com/apache/tomcat/commit/0f725b323a74b64cdb35fce04b54427582ad6063	apache/tomcat	5	0	0	17	1	Disable AJP connector by default		
+https://github.com/apache/tomcat/commit/4c933d80e340b4a841a672060351b2190b326782	apache/tomcat	6	0	0	18	1	Disable AJP connector by default		
+https://github.com/apache/tomcat/commit/bd5ebb63e438a253bbd9b035425ece915d3feb21	apache/tomcat	6	0	0	18	1	Disable AJP connector by default		
+https://github.com/apache/tomcat/commit/9233d9d6a018be4415d4d7d6cb4fe01176adf1a8	apache/tomcat	2	1	5	18	1	Fix https://bz.apache.org/bugzilla/show_bug.cgi?id=60918 When sendfile processing passes to the Poller for completion and then completes before Http11Processor.service() exists	 the Processor is recycled which clears sendfileData causing the Processor to return CLOSED or OPEN rather than SENDFILE.	
+https://github.com/apache/tomcat/commit/30f8063d7a9b4c43ae4722f5e382a76af1d7a6bf	apache/tomcat	13	4	10	18	1	Improve handling of failures during recycle() methods		
+https://github.com/apache/tomcat/commit/44d05d75d696ca10ce251e4e370511e38f20ae75	apache/tomcat	14	4	10	19	1	Improve handling of failures during recycle() methods		
+https://github.com/apache/tomcat/commit/1fc9f58	apache/tomcat	2	1	7	5	1	Refactor JMX remote RMI registry creation		
+https://github.com/apache/tomcat/commit/6d66e99ef85da93e4d2c2a536ca51aa3418bfaf4	apache/tomcat	6	5	1	11	1	Use java.nio.file.Path for consistent sub-directory checking		
+https://github.com/apache/tomcat/commit/4785433a226a20df6acbea49296e1ce7e23de453	apache/tomcat	6	5	1	11	1	Use java.nio.file.Path for consistent sub-directory checking		
+https://github.com/apache/tomcat/commit/93f0cc403a9210d469afc2bd9cf03ab3251c6f35	apache/tomcat	6	5	1	11	1	Use java.nio.file.Path for consistent sub-directory checking		
+https://github.com/apache/tomcat/commit/74b105657ffbd1d1de80455f03446c3bbf30d1f5	apache/tomcat	7	6	5	20	1	Use consistent approach for sub-directory checking		
+https://github.com/apache/tomcat/commit/9d7def063b47407a09a2f9202beed99f4dcb292a	apache/tomcat	2	2	0	4	1	Move check for current streams to end of header parsing.		
+https://github.com/apache/tomcat/commit/55911430df13f8c9998fbdee1f9716994d2db59b	apache/tomcat	2	2	0	4	1	Move check for current streams to end of header parsing.		
+https://github.com/apache/tomcat/commit/1bbc650cbc3f08d85a1ec6d803c47ae53a84f3bb	apache/tomcat	2	2	0	4	1	Move check for current streams to end of header parsing.		
+https://github.com/payara/Payara/commit/ca683b8a9164bf236273eb3e5086a3e9d9242eff	payara/Payara	1	1	2	1	0	None		
+https://github.com/payara/Payara/commit/ca683b8a9164bf236273eb3e5086a3e9d9242eff	payara/Payara	1	1	2	1	0	None		
+https://github.com/payara/Payara/commit/ca683b8a9164bf236273eb3e5086a3e9d9242eff	payara/Payara	1	1	2	1	0	None		
+https://github.com/payara/Payara/commit/ca683b8a9164bf236273eb3e5086a3e9d9242eff	payara/Payara	1	1	2	1	0	None		
+https://github.com/payara/Payara/commit/ca683b8a9164bf236273eb3e5086a3e9d9242eff	payara/Payara	1	1	2	1	0	None		
+https://github.com/payara/Payara/commit/ca683b8a9164bf236273eb3e5086a3e9d9242eff	payara/Payara	1	1	2	1	0	None		
+https://github.com/payara/Payara/commit/67ffd436595a998f66a7fc045558b22e2c1cbcb4	payara/Payara	1	1	1	1	0	None		
+https://github.com/payara/Payara/commit/67ffd436595a998f66a7fc045558b22e2c1cbcb4	payara/Payara	1	1	1	1	0	None		
+https://github.com/payara/Payara/commit/67ffd436595a998f66a7fc045558b22e2c1cbcb4	payara/Payara	1	1	1	1	0	None		
+https://github.com/payara/Payara/commit/67ffd436595a998f66a7fc045558b22e2c1cbcb4	payara/Payara	1	1	1	1	0	None		
+https://github.com/payara/Payara/commit/67ffd436595a998f66a7fc045558b22e2c1cbcb4	payara/Payara	1	1	1	1	0	None		
+https://github.com/apache/lucene-solr/commit/6c8f24eb9e3fe1cb19058173f2e221de3febfeda	apache/lucene-solr	1	1	12	12	1	None		
+https://github.com/apache/solr/commit/c79011e81dada2f9bc4b4df32ffb32152ef81152	apache/solr	2	2	13	14	1	SOLR-16949: Handle inputStream leaks		
+https://github.com/apache/solr/commit/659021c7d50164a3166887f24875228431b02102	apache/solr	11	8	17	52	1	SOLR-16809: Converge logic for hidden sysProps		
+https://github.com/apache/solr/commit/98c198810f2cd934d23d0d80aadb570a2bbb3b8e	apache/solr	12	8	17	56	1	SOLR-16809: Converge logic for hidden sysProps		
+https://github.com/apache/lucene-solr/commit/6e9ed203b30958396bdfd41760d426b386646865	apache/lucene-solr	5	4	14	20	1	None		
+https://github.com/apache/lucene-solr/commit/6e9ed203b30958396bdfd41760d426b386646865	apache/lucene-solr	5	4	14	20	1	None		
+https://github.com/apache/solr/commit/e2bf1f434aad873fbb24c21d46ac00e888806d98	apache/solr	11	8	18	27	1	SOLR-17098: Only use ZK ACLs for default ZK Host		
+https://github.com/apache/solr/commit/35fc4bdc48171d9a64251c54a1e76deb558cf9d8	apache/solr	2	1	1	2	1	SOLR-16808: Don't publish envVars via the Metrics API		
+https://github.com/apache/lucene-solr/commit/31050216b692603ced4270d5c2630e7dd37e14e4	apache/lucene-solr	2	1	1	3	0	None		
+https://github.com/apache/storm/commit/a37f33115073449985e4c7bce58078d800f34267	apache/storm	2	0	0	9	1	Remove Storm UI uploadTopology API		
+https://github.com/apache/storm/commit/efad4cca2d7d461f5f8c08a0d7b51fabeb82d0af	apache/storm	2	2	1	28	1	STORM-3052: Allow for blobs to be unzipped/untarred		
+https://github.com/apache/storm/commit/f61e5daf299d6c37c7ad65744d02556c94a16a4b	apache/storm	2	2	1	28	1	STORM-3052: Allow for blobs to be unzipped/untarred		
+https://github.com/apache/storm/commit/f61e5daf299d6c37c7ad65744d02556c94a16a4b	apache/storm	2	2	1	28	1	STORM-3052: Allow for blobs to be unzipped/untarred		
+https://github.com/apache/storm/commit/f61e5daf299d6c37c7ad65744d02556c94a16a4b	apache/storm	2	2	1	28	1	STORM-3052: Allow for blobs to be unzipped/untarred		
+https://github.com/apache/storm/commit/b778125a17ce7497d80aea1e339f3a282aeeb65a	apache/storm	1	1	0	1	1	Replace File.createTempFile with java.nio.file.Files.createTempFile		
+https://github.com/apache/storm/commit/44b80fbfcf8a52b6e7cb3840a52ff07f8a2364e4	apache/storm	23	18	37	149	1	User improvements		
+https://github.com/apache/storm/commit/9980b68d521dfdf5a83577ac361949293751c618	apache/storm	23	18	37	152	1	User improvements		
+https://github.com/javaserverfaces/mojarra/commit/3d476326c7ff32fe17357ac44a7fe194874df246	javaserverfaces/mojarra	0	0	0	0	0	None		
+https://github.com/javaserverfaces/mojarra/commit/8862e9e1fdc5e9a3c67019552f2a2b88e50e68ad	javaserverfaces/mojarra	0	0	0	0	0	None		
+https://github.com/javaserverfaces/mojarra/commit/8862e9e1fdc5e9a3c67019552f2a2b88e50e68ad	javaserverfaces/mojarra	0	0	0	0	0	None		
+https://github.com/javaserverfaces/mojarra/commit/8862e9e1fdc5e9a3c67019552f2a2b88e50e68ad	javaserverfaces/mojarra	0	0	0	0	0	None		
+https://github.com/javaserverfaces/mojarra/commit/8862e9e1fdc5e9a3c67019552f2a2b88e50e68ad	javaserverfaces/mojarra	0	0	0	0	0	None		
+https://github.com/javaserverfaces/mojarra/commit/6997c80fc69a239d03d2c85fd173d9e06236e4c1	javaserverfaces/mojarra	0	0	0	0	0	None		
+https://github.com/javaserverfaces/mojarra/commit/e6cf4a73ad4fd341efd78794f888f995a1d4819f	javaserverfaces/mojarra	0	0	0	0	0	None		
+https://github.com/javaserverfaces/mojarra/commit/6fe98a1fc683136d8232f3b083776a02938d1bd4	javaserverfaces/mojarra	0	0	0	0	0	None		
+https://github.com/mysql/mysql-connector-j/commit/8b59b9ebab61cc97bafe77ee05f79829b1376e47	mysql/mysql-connector-j	6	3	1	7	1	WL#12245	 DevAPI: Implement connect timeout.	
+https://github.com/mysql/mysql-connector-j/commit/2b16eedca12bd1d42c4ee48016b75bc77b3705d6	mysql/mysql-connector-j	23	21	102	43	1	Fix for Bug#34918989	 Pluggable classes are initialized even when they cannot be used by Connector/J.	
+https://github.com/mysql/mysql-connector-j/commit/4993d5735fd84a46e7d949ad1bcaa0e9bb039824	mysql/mysql-connector-j	1	1	10	0	1	Fix for MysqlSQLXML.		
+https://github.com/mysql/mysql-connector-j/commit/6189e718de5b6c6115aee45dd7a480081c129d68	mysql/mysql-connector-j	2	1	4	1	1	Fix for Bug#25438355	 Improper automatic deserialization of binary data.  Please enter the commit message for your changes. Lines starting	
+https://github.com/mysql/mysql-connector-j/commit/aeba57264966b0fd329cdb8170ba772fd8fd4de2	mysql/mysql-connector-j	1	1	20	28	1	Fix for BUG#20515688.		
+https://github.com/mysql/mysql-connector-j/commit/b8acfd59baf2223814a48b6fb87ea95919da2b5f	mysql/mysql-connector-j	5	4	5	115	1	Fix for Bug#18925727	 SQL INJECTION IN MYSQL JDBC DRIVER.	
+https://github.com/mysql/mysql-connector-j/commit/44631dd316e3da818fb593f02dbbe30308a937e0	mysql/mysql-connector-j	2	1	4	3	1	Fix for Bug#66430 (16714868)	 setCatalog on connection leaves ServerPreparedStatement cache for old catalog.	
+https://github.com/apache/zookeeper/commit/daf7cfd04005cff1a4f7cab5ab13d41db88d0cd8	apache/zookeeper	10	10	15	15	1	ZOOKEEPER-4799: Refactor ACL check in 'addWatch' command		
+https://github.com/apache/zookeeper/commit/daf7cfd04005cff1a4f7cab5ab13d41db88d0cd8	apache/zookeeper	10	10	15	15	1	ZOOKEEPER-4799: Refactor ACL check in 'addWatch' command		
+https://github.com/apache/zookeeper/commit/29c7b9462681f47c2ac12e609341cf9f52abac5c	apache/zookeeper	10	10	16	15	1	ZOOKEEPER-4799: Refactor ACL check in 'addWatch' command		
+https://github.com/apache/zookeeper/commit/d59f8d6c81a679ca93492b5e28b807e7abb4d9d0	apache/zookeeper	1	1	4	9	1	ZOOKEEPER-4753: zookeeper-server: Improvement: Explicit handling of DIGEST-MD5 vs GSSAPI in quorum auth		
+https://github.com/apache/zookeeper/commit/96b3172ca249a8580e9a315d589d319286cee4ee	apache/zookeeper	1	1	4	9	1	ZOOKEEPER-4753: zookeeper-server: Improvement: Explicit handling of DIGEST-MD5 vs GSSAPI in quorum auth		
+https://github.com/apache/zookeeper/commit/703b16feeecd9ac14feac29462eb45f306d220ca	apache/zookeeper	1	1	4	9	1	ZOOKEEPER-4753: zookeeper-server: Improvement: Explicit handling of DIGEST-MD5 vs GSSAPI in quorum auth		
+https://github.com/cloudfoundry/uaa/commit/dccd3962f969913996ee88f653fce3b108c0205b	cloudfoundry/uaa	1	1	0	1	1	Identity zone creation checks for signing key with issuer		
+https://github.com/cloudfoundry/uaa/commit/14c745aa293b8d3ce9cdd6bfbc6c0ef3f269b211	cloudfoundry/uaa	1	1	0	1	1	Identity zone creation checks for signing key with issuer		
+https://github.com/cloudfoundry/uaa/commit/14c745aa293b8d3ce9cdd6bfbc6c0ef3f269b211	cloudfoundry/uaa	1	1	0	1	1	Identity zone creation checks for signing key with issuer		
+https://github.com/cloudfoundry/uaa/commit/78731f8aa37a53385d0194821a5356ab66e21385	cloudfoundry/uaa	4	3	5	9	1	set a global flag to disable clientlockoutpolicy		
+https://github.com/cloudfoundry/uaa/commit/3a7749a6d327cacbc7bf93cd50a0e2dee0b935ba	cloudfoundry/uaa	4	3	0	6	1	No longer use unknown.org as a default.		
+https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9	protocolbuffers/protobuf	2	1	11	15	1	Clean up TextFormat parser (#10673)		
+https://github.com/protocolbuffers/protobuf/commit/24b65038cfe36191268fda355aca0e43d3ecbcbe	protocolbuffers/protobuf	2	1	11	15	1	Fix TextFormat parser (#10674)		
+https://github.com/protocolbuffers/protobuf/commit/b0e8e607dc1ace17c823276d3384eeda775bbd76	protocolbuffers/protobuf	39	23	139	290	1	Refactoring Java parsing (3.19.x) (#10667)		
+https://github.com/protocolbuffers/protobuf/commit/42e47e5a3fa7219b136f6a5de7c74a89a79245c6	protocolbuffers/protobuf	39	23	139	301	1	Refactoring Java parsing (3.16.x) (#10668)		
+https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9	protocolbuffers/protobuf	2	1	11	15	1	Clean up TextFormat parser (#10673)		
+https://github.com/apache/tomcat/commit/3631adb1342d8bbd8598802a12b63ad02c37d591	apache/tomcat	6	4	11	21	1	Refactor WebSocket close for suspend/resume		
+https://github.com/apache/tomcat/commit/52d6650e062d880704898d7d8c1b2b7a3efe8068	apache/tomcat	6	4	11	21	1	Refactor WebSocket close for suspend/resume		
+https://github.com/apache/tomcat/commit/0052b374684b613b0c849899b325ebe334ac6501	apache/tomcat	6	4	11	21	1	Refactor WebSocket close for suspend/resume		
+https://github.com/apache/tomcat/commit/b0e3b1bd78de270d53e319d7cb79eb282aa53cb9	apache/tomcat	6	4	11	21	1	Refactor WebSocket close for suspend/resume		
+https://github.com/apache/camel/commit/c7aa49f8c83b0aca3b62984b6ccfe0a3d3bcee4f	apache/camel	4	2	6	15	1	CAMEL-20306 - Camel-CassandraQL: Add ObjectInputFilter String pattern parameter in CassandraAggregationRepository to be used in unmarshall operations (#12759)		
+https://github.com/apache/camel/commit/d12927b4884d60392cce59fe16bb0260cc4bcdca	apache/camel	3	2	6	9	1	CAMEL-20306 - Camel-CassandraQL: Add ObjectInputFilter String pattern parameter in CassandraAggregationRepository to be used in unmarshall operations (#12760)		
+https://github.com/apache/camel/commit/8a5202a50aed508a2cb6ae2f6ea74184e0bcf62c	apache/camel	3	2	6	9	1	CAMEL-20306 - Camel-CassandraQL: Add ObjectInputFilter String pattern parameter in CassandraAggregationRepository to be used in unmarshall operations (#12760) (#12790)		
+https://github.com/apache/camel/commit/1c0b303f1dd2ada62294b6f7607e16404953ebc7	apache/camel	3	2	6	9	1	CAMEL-20306 - Camel-CassandraQL: Add ObjectInputFilter String pattern parameter in CassandraAggregationRepository to be used in unmarshall operations (#12762)		
+https://github.com/apache/dolphinscheduler/commit/12f8138167f8481f66d52775b510457f532b56e4	apache/dolphinscheduler	18	17	29	96	1	Expire session when update user password (#15219)		
+https://github.com/apache/dolphinscheduler/commit/359b1a7e5bb72790d2583971dc2d44a8481e3a10	apache/dolphinscheduler	1	1	0	1	0	None		
+https://github.com/apache/dolphinscheduler/commit/f2cec3e2593ae5b54dcd7aa992081b84b4b4663a	apache/dolphinscheduler	5	0	0	5	1	Only expose necessary actuator endpoints (#12571) (#12794)		
+https://github.com/apache/dolphinscheduler/commit/a4948f58e671ab263060da1de255af3ecd2530ac	apache/dolphinscheduler	29	22	94	137	1	[Feature][Permission] Reconstruction of permissions of resource center and monitoring center. (#10307)		
+https://github.com/FasterXML/jackson-databind/commit/3ded28aece694d0df39c9f0fa1ff385b14a8656b	FasterXML/jackson-databind	2	1	0	12	0	None		
+https://github.com/FasterXML/jackson-databind/commit/3ded28aece694d0df39c9f0fa1ff385b14a8656b	FasterXML/jackson-databind	2	1	0	12	0	None		
+https://github.com/FasterXML/jackson-databind/commit/33d96c13fe18a2dad01b19ce195548c9acea9da4	FasterXML/jackson-databind	2	1	0	2	0	None		
+https://github.com/FasterXML/jackson-databind/commit/33d96c13fe18a2dad01b19ce195548c9acea9da4	FasterXML/jackson-databind	2	1	0	2	0	None		
+https://github.com/wso2/transport-http/commit/4a4dc99c7b259646ee5e23b7aaa7c3a8bac959c1	wso2/transport-http	1	1	0	3	1	Add HTTP header Validation		
+https://github.com/wso2/transport-http/commit/4a4dc99c7b259646ee5e23b7aaa7c3a8bac959c1	wso2/transport-http	1	1	0	3	1	Add HTTP header Validation		
+https://github.com/wso2/transport-http/commit/4a4dc99c7b259646ee5e23b7aaa7c3a8bac959c1	wso2/transport-http	1	1	0	3	1	Add HTTP header Validation		
+https://github.com/wso2/transport-http/commit/4a4dc99c7b259646ee5e23b7aaa7c3a8bac959c1	wso2/transport-http	1	1	0	3	1	Add HTTP header Validation		
+https://github.com/jetty/jetty.project/commit/86586df0a8a4d9c6b5af9a621ad1adf1b494d39b	jetty/jetty.project	1	1	0	3	1	Issue #11259 - HTTP/2 connection not closed after idle timeout when TCP congested. (#11268)		
+https://github.com/jetty/jetty.project/commit/86586df0a8a4d9c6b5af9a621ad1adf1b494d39b	jetty/jetty.project	1	1	0	3	1	Issue #11259 - HTTP/2 connection not closed after idle timeout when TCP congested. (#11268)		
+https://github.com/jetty/jetty.project/commit/86586df0a8a4d9c6b5af9a621ad1adf1b494d39b	jetty/jetty.project	1	1	0	3	1	Issue #11259 - HTTP/2 connection not closed after idle timeout when TCP congested. (#11268)		
+https://github.com/apache/pulsar/commit/894192fb6542e504be43034a3c33e90f9c6e528a	apache/pulsar	5	5	5	16	1	[fix][ws] Remove unnecessary ping/pong implementation  (#20733)		
+https://github.com/apache/pulsar/commit/11ee36d0351644a006d2a8639bdcc714fb602358	apache/pulsar	5	5	5	16	1	[fix][ws] Remove unnecessary ping/pong implementation  (#20733)		
+https://github.com/apache/pulsar/commit/eac263e8f2a93d3b9f707b97c7bbcbc2a826569f	apache/pulsar	5	5	5	16	1	[fix][ws] Remove unnecessary ping/pong implementation  (#20733)		
+https://github.com/spring-projects/spring-framework/commit/202fa5cdb3a3d0cfe6967e85fa167d978244f28a	spring-projects/spring-framework	2	2	1	28	1	Polishing and minor refactoring in HandlerMappingIntrospector		
+https://github.com/spring-projects/spring-framework/commit/eafe3afe11c9fc440ce3088e7e45ecaeffb57a52	spring-projects/spring-framework	2	2	1	19	1	Polishing and minor refactoring in HandlerMappingIntrospector		
+https://github.com/spring-projects/spring-framework/commit/c7bd3b844012a9bb214ca7203f110979c0890c00	spring-projects/spring-framework	5	5	16	69	1	Support HTTP range requests in Controllers		
+https://github.com/apache/struts/commit/d832747d647df343ed07a58b1b5e540a05a4d51b	apache/struts	2	1	0	6	1	Applies better exclude patterns		
+https://github.com/apache/struts/commit/0c367776762b25c567b415ac4c2b0e48042cf34f	apache/struts	1	1	0	0	1	Resolved critical Xwork vulnerability		
+https://github.com/apache/struts/commit/583da3d5df5aeeded3beadca6305a98c5618e46b	apache/struts	2	2	11	18	1	WW-4805 Blocks ognl access to class members of Spring proxy		
+https://github.com/qos-ch/logback/commit/b8eac23a9de9e05fb6d51160b3f46acd91af9731	qos-ch/logback	2	2	3	5	1	prevent DOS attacks using on malicious serialized input		
+https://github.com/qos-ch/logback/commit/b8eac23a9de9e05fb6d51160b3f46acd91af9731	qos-ch/logback	2	2	3	5	1	prevent DOS attacks using on malicious serialized input		
+https://github.com/qos-ch/logback/commit/bb095154be011267b64e37a1d401546e7cc2b7c3	qos-ch/logback	3	3	14	9	1	fix CVE-2023-6378		
+https://github.com/apache/tomcat55/commit/53b9e4bf21aef92321404644bfbb22ae625c033b	apache/tomcat55	3	1	1	4	1	Avoid unnecessary cast		
+https://github.com/apache/groovy/commit/4e418d4a34c973a7ec1e822552103043ac13780e	apache/groovy	1	1	8	9	1	GROOVY-9824: replace some old api usage with newer available variants		
+https://github.com/apache/groovy/commit/98dc5d713926cd81b006c510a1546ccd520fe17f	apache/groovy	1	1	9	5	1	GROOVY-9824: replace some old api usage with newer available variants (port to 2_5_X)		
+https://github.com/apache/groovy/commit/f069c35c4bbaf68547c76381509d59840a7ed32d	apache/groovy	1	1	7	7	1	GROOVY-9824: replace some old api usage with newer available variants (port to 3_0_X)		
+https://github.com/jetty/jetty.project/commit/0839a208cdc3fcfe25206a77af59ba9fda260188	jetty/jetty.project	6	6	7	18	1	Fixes #11259 - HTTP/2 connection not closed after idle timeout when TCP congested. (#11267)		
+https://github.com/jetty/jetty.project/commit/0839a208cdc3fcfe25206a77af59ba9fda260188	jetty/jetty.project	6	6	7	18	1	Fixes #11259 - HTTP/2 connection not closed after idle timeout when TCP congested. (#11267)		
+https://github.com/apache/hadoop/commit/10e7ca481c8cd0548d903d39d8581291e533bf12	apache/hadoop	2	0	0	5	1	YARN-11441. Revert YARN-10495.		
+https://github.com/apache/kylin/commit/b60d5ae694dffc2281bfe0ef464eada0b3a9b774	apache/kylin	1	1	0	1	1	Minor fix		
+https://github.com/apache/kylin/commit/f4daf14dde99b934c92ce2c832509f24342bc845	apache/kylin	4	3	3	7	1	test fix		
+https://github.com/apache/commons-compress/commit/adda4c1829aaae45939e370f47b478ef7f3e7e33	apache/commons-compress	10	10	39	14	1	COMPRESS-632: Fixes for CPIO bugs (#441)		
+https://github.com/apache/cocoon/commit/c9ef017e0bd7af356f21240eec5dba3e3dbbd827	apache/cocoon	1	1	6	7	1	COCOON-2372: Do not use Excalibur's SAXParser to prevent XXE injections.		
+https://github.com/apache/cocoon/commit/bf7c0057f3fd0e3142e2fa45a8b7c538f74c92a2	apache/cocoon	1	1	0	16	1	COCOON-2372: Fix SQL injection vulnerability for DatabaseCookieAuthenticatorAction.		
+https://github.com/apache/inlong/commit/6b50691690f315cb2b57255be9207621831b385a	apache/inlong	1	1	2	3	1	[INLONG-8622][Manager] User API Permissions Optimization (#8623)		
+https://github.com/apache/inlong/commit/9d44b257c3fcc7c14614e4b078d3d2d5b865c316	apache/inlong	2	2	0	2	1	[INLONG-8627][Manager] Add parameters validation for the testConnection method (#8628)		
+https://github.com/apache/batik/commit/1e12686194370b22420da705d71af66161affa33	apache/batik	1	1	3	0	0	None		
+https://github.com/belaban/JGroups/commit/eeaf5241cce464ef21a2dfc4938729ade9ebef36	belaban/JGroups	34	26	245	368	1	- Backport of JGRP-2055 to 3.2 branch (SYM/ASYM_ENCRYPT) JGRP-2074 - Removed ENCRYPTKeystoreTest		
+https://github.com/belaban/JGroups/commit/fba182c14075789e1d2c976d50d9018c671ad0b4	belaban/JGroups	19	11	139	148	1	- Backport of JGRP-2021 to 3.6: https://issues.jboss.org/browse/JGRP-2055 - Fixed S3_PINGTest (http -> https) - Using delegation rather than inheritance in {A}SYM_ENCRYPT_Test as inheritance doesn't work properly in TestNG - Added doc/design/MaliciousAttacks.txt - Added conf/sym-encrypt.xml and conf/asym-encrypt.xml - Added info on new encryption protocols to manual		
+https://github.com/apache/cxf/commit/fec9e63fda69a3ef21679cd811efa2a0c100ce95	apache/cxf	2	2	2	2	1	Merged revisions 948162 via svnmerge from https://svn.apache.org/repos/asf/cxf/branches/2.2.x-fixes		
+https://github.com/apache/cxf/commit/63a0a674a46aa24bf020bcb3d9e71bc0ad130c64	apache/cxf	2	2	2	2	1	Merged revisions 948131 via svnmerge from https://svn.apache.org/repos/asf/cxf/trunk		
+https://github.com/spring-projects/spring-boot/commit/3522714c13b47af03bf42e7f2d5994af568cb1a7	spring-projects/spring-boot	4	4	12	11	1	Use endpoint mappings in CloudFoundry integration		
+https://github.com/spring-projects/spring-boot/commit/3522714c13b47af03bf42e7f2d5994af568cb1a7	spring-projects/spring-boot	4	4	12	11	1	Use endpoint mappings in CloudFoundry integration		
+https://github.com/orientechnologies/orientdb/commit/5dbd6035e4e59259f3e08ba8f1218785f36d1d2d	orientechnologies/orientdb	3	3	1	4	1	Fixed issue #4824 - JSONP is disabled by default		
+https://github.com/orientechnologies/orientdb/commit/f11dbced94cb587f445cb99db08735c023921053	orientechnologies/orientdb	3	3	1	1	1	Fixed issue #4824 about disabling JSONP support		
+https://github.com/codehaus-plexus/plexus-utils/commit/f933e5e78dc2637e485447ed821fe14904f110de	codehaus-plexus/plexus-utils	1	1	0	2	1	o Updated to remove '<!--' and '-->' from XML comments to guard against XML   XML injection issues.		
+https://github.com/codehaus-plexus/plexus-utils/commit/33a2853df8185b4519b1b8bfae284f03392618ef	codehaus-plexus/plexus-utils	1	1	0	1	1	o Updated to guard against directory traversal issues.		
+https://github.com/apache/hbase/commit/7206ef6427d12785b797797a00153b5437e21cb1	apache/hbase	5	4	4	27	1	HBASE-21960 Ensure RESTServletContainer used by RESTServer		
+https://github.com/apache/hbase/commit/7206ef6427d12785b797797a00153b5437e21cb1	apache/hbase	5	4	4	27	1	HBASE-21960 Ensure RESTServletContainer used by RESTServer		
+https://github.com/community-security-team/liferay-portal/commit/1bfe0fddb35dda44f9a0319d3c6377b439971ca7#diff-a1e01fd4fadada476b16775b5aec9aec080cbe59e8d59f4956672cc5bd3171e0R41-R48	community-security-team/liferay-portal	0	0	0	0	0	None		
+https://github.com/liferay/liferay-portal/commit/ac8267406785c2e70f4b15aadd604fbe7fb4451b	liferay/liferay-portal	1	1	0	1	0	None		
+https://github.com/apache/nifi/commit/fd6eb669efcf27d3148b624355e2916d3c3e55a5	apache/nifi	14	14	27	37	1	#NAME?		
+https://github.com/apache/nifi/commit/fd6eb669efcf27d3148b624355e2916d3c3e55a5	apache/nifi	14	14	27	37	1	#NAME?		
+https://github.com/cloudfoundry/uaa/commit/5eab756eaf4bb397302f00fbd0273f2470009d38	cloudfoundry/uaa	4	3	5	9	1	set a global flag to disable clientlockoutpolicy		
+https://github.com/cloudfoundry/uaa/commit/66166d17781aa257ff77a2fb7c69f72d0b611be3	cloudfoundry/uaa	3	2	2	4	1	Merge branch 'feature/token_self_revocation' into prerelease/4.7.x		
+https://github.com/apache/karaf/commit/52b70cf5128b4823a829c33cedb9439e8c4259af	apache/karaf	2	2	0	2	1	[KARAF-7326] Add ending slash (separator) in canonical path	 avoiding partial path traversal	
+https://github.com/apache/karaf/commit/f41fda346a37f51702a691aaa152a387156192db	apache/karaf	2	2	0	2	1	[KARAF-7326] Add ending slash (separator) in canonical path	 avoiding partial path traversal	
+https://github.com/apache/jspwiki/commit/b17f699a4a099639beebb905cf4e04a8bea63b3c	apache/jspwiki	3	1	0	7	1	2.11.0-M3-git-03 : remove XHRMarkup2Wysiwyg.jsp		
+https://github.com/apache/jspwiki/commit/b17f699a4a099639beebb905cf4e04a8bea63b3c	apache/jspwiki	3	1	0	7	1	2.11.0-M3-git-03 : remove XHRMarkup2Wysiwyg.jsp		
+https://github.com/playframework/playframework/commit/3c4efe218dd8c3f434b2af16d9439052d79d7607	playframework/playframework	1	0	0	1	1	Restore Jackson visibility defaults		
+https://github.com/playframework/playframework/commit/3c4efe218dd8c3f434b2af16d9439052d79d7607	playframework/playframework	1	0	0	1	1	Restore Jackson visibility defaults		
+https://github.com/spring-projects/spring-graphql/commit/372feab856b0d9434f22f44ee4262f639cae2457	spring-projects/spring-graphql	1	1	11	17	1	Refactoring in DefaultBatchLoaderRegistry		
+https://github.com/spring-projects/spring-graphql/commit/372feab856b0d9434f22f44ee4262f639cae2457	spring-projects/spring-graphql	1	1	11	17	1	Refactoring in DefaultBatchLoaderRegistry		
+https://github.com/line/centraldogma/commit/16903426be2e954c050b3ee47b8c38ee3218f0eb	line/centraldogma	1	0	0	1	1	Update Armeria version to 1.27.2 (#924)		
+https://github.com/apache/dolphinscheduler/commit/309c8c97a9b9003244496dedc7861a5026f9441a	apache/dolphinscheduler	1	1	3	7	1	[Enhancement][API]Enhance mysql connection properties (#15433)		
+https://github.com/ClickHouse/clickhouse-java/commit/4f8d9303eb991b39ec7e7e34825241efa082238a	ClickHouse/clickhouse-java	9	8	21	27	1	Mask sensitive option in log		
+https://github.com/apache/linkis/commit/08cbcfca140afebae10e1582ee87721578719ded	apache/linkis	8	5	1	10	1	remove unnecessary log print		
+https://github.com/apache/submarine/commit/4cd2af10499ac6dc4f82bda179d9f414a522abef	apache/submarine	4	0	0	4	1	SUBMARINE-1361. Fix Submarine SQL injection vulnerability		
+https://github.com/ipb-halle/MolecularFaces/commit/4bf54aff74555214b4fcd3e81a31e07b900f472a	ipb-halle/MolecularFaces	3	3	7	19	1	also render viewers' molfiles via hidden input fields		
+https://github.com/keycloak/keycloak/commit/556146f961f7c8ddf64de15e2117a58d045f72b5	keycloak/keycloak	2	2	2	10	1	Fix performance issues with many offline sessions		
+https://github.com/apache/dolphinscheduler/commit/f2cec3e2593ae5b54dcd7aa992081b84b4b4663a	apache/dolphinscheduler	5	0	0	5	1	Only expose necessary actuator endpoints (#12571) (#12794)		
+https://github.com/xerial/snappy-java/commit/9f8c3cf74223ed0a8a834134be9c917b9f10ceb5	xerial/snappy-java	3	3	3	7	1	Merge pull request from GHSA-55g7-9cwv-5qfv		
+https://github.com/apache/syncope/commit/2ef69227e8778361e6a87f048bd435220cda9b7d	apache/syncope	5	2	4	12	1	Upgrading Flowable and disabling Shell Service Tasks (#194)		
+https://github.com/wildfly/wildfly-core/commit/25728f370c2e90969854717ba4bb5182727f3f49	wildfly/wildfly-core	2	2	0	3	1	Merge pull request #5703 from bstansberry/WFCORE-6544		
+https://github.com/apache/solr/commit/e2bf1f434aad873fbb24c21d46ac00e888806d98	apache/solr	11	8	18	27	1	SOLR-17098: Only use ZK ACLs for default ZK Host		
+https://github.com/apache/dolphinscheduler/commit/a4948f58e671ab263060da1de255af3ecd2530ac	apache/dolphinscheduler	29	22	94	137	1	[Feature][Permission] Reconstruction of permissions of resource center and monitoring center. (#10307)		
+https://github.com/quarkusio/quarkus/commit/3a3b0d739222a2e476e085a955cfa090739f5924#diff-790f32c6b9d143ce53d34d972c2354512b470b65ac34021babdef4dbb6532d71R993	quarkusio/quarkus	1	1	1	1	1	Sanitize app.dekorate.io/vcs-url kubernetes annotation		
+https://github.com/richfaces4/core/commit/12ee1166f04806b3ba072d27f9a9b3b3feae2ec9	richfaces4/core	5	4	12	21	1	BZ#973878: Added the LookAheadObjectInputStream to whitelist classes for deserialisation		
+https://github.com/apache/activemq/commit/0d6e5f240ef34bae2e4089102047593bef628e6c	apache/activemq	1	1	0	2	1	AMQ-7490 - Fix JMX regression		
+https://github.com/FasterXML/jackson-dataformat-xml/commit/f0f19a4c924d9db9a1e2830434061c8640092cc0	FasterXML/jackson-dataformat-xml	2	1	1	3	1	Fix #190		
+https://github.com/apache/iotdb/commit/89c0ec3b963cb44cf94a1efac8f28a5fc475d214	apache/iotdb	5	4	14	13	1	[To rel/0.13] Optimize pattern matching in Regexp (#7564)		
+https://github.com/wso2/carbon-kernel/commit/448e1cf7ed04684eddbbb900dc1d80e38949454d	wso2/carbon-kernel	1	0	0	1	1	Merge pull request #2663 from sajinieKavindya/branch-4.6.x		
+https://github.com/igniterealtime/Smack/commit/057d00c9de04d576db40c4f2525a74dace9580b4	igniterealtime/Smack	3	3	5	9	1	Add support for HostnameVerifier		
+https://github.com/apache/sling-org-apache-sling-app-cms/commit/540be07c6fd0af01c8ddb6fca39b06d8e9a60e5c	apache/sling-org-apache-sling-app-cms	115	0	1	650	1	Fixing use if sling:encode		
+https://github.com/sonatype/nexus-public/commit/7b9939e71693422d3e09adc3744fa2e9b3a62a63	sonatype/nexus-public	125	8	9	290	1	updates for 2.14.14 release		
+https://github.com/eclipse-platform/eclipse.platform.ui/commit/f243cf0a28785b89b7c50bf4e1cce48a917d89bd	eclipse-platform/eclipse.platform.ui	57	11	26	89	1	Refactor XML handling		
+https://github.com/eclipse-platform/eclipse.platform.ui/commit/f243cf0a28785b89b7c50bf4e1cce48a917d89bd	eclipse-platform/eclipse.platform.ui	57	11	26	89	1	Refactor XML handling		
+https://github.com/sonatype/nexus-public/commit/489b60472df89ad90eac84cc46995a54dfe2fb1b	sonatype/nexus-public	115	8	14	257	1	apply changes for 2.14.15 release		
+https://github.com/3breadt/dd-plist/commit/2120e77a988d28fba214714710a43521b4ac62b8	3breadt/dd-plist	2	1	9	17	1	Merge pull request #26 from joval/master		
+https://github.com/apache/ozone/commit/842e6f6f1002a04eb3dd2c76ef108575f3a751af	apache/ozone	42	34	76	173	1	HDDS-4729. Add token support for container admin operations (#2186)		
+https://github.com/zeroturnaround/zt-zip/commit/759b72f33bc8f4d69f84f09fcb7f010ad45d6fff	zeroturnaround/zt-zip	1	1	0	4	1	Fixed potential security vulnerability reported by Snyk Security Research Team		
+https://github.com/jeremylong/DependencyCheck/commit/f7ccabbf43223be25bbc6ab2e456e8e91565711a	jeremylong/DependencyCheck	1	0	0	1	1	fix: mask nvd.api.key in logs (#6307)		
+https://github.com/hapifhir/org.hl7.fhir.core/commit/909f7e64fea6532a00b3eb8904bf620fc3cae6d1	hapifhir/org.hl7.fhir.core	9	9	42	95	1	Additional zip-slip tests (#1162)		
+https://github.com/apache/james-project/commit/90ec73f3138e272896d110575eeb063f6eef1d9c	apache/james-project	2	1	0	1	1	JAMES-3635 Upgrade PrefixedRegex to RE2J		
+https://github.com/OWASP/json-sanitizer/commit/f2c9858c02cf521dd05f2c6f8f9450f2e1343090	OWASP/json-sanitizer	1	1	2	2	1	escape tab characters (#22)		
+https://github.com/apache/olingo-odata4/commit/98d445a87447a5424cf5405a559708323f94d94f	apache/olingo-odata4	2	2	4	2	1	[OLINGO-1411] Better header parsing		
+https://github.com/apache/camel/commit/36b55f9cfa50a2056c70f98d66c29a95ddc724e1	apache/camel	11	8	44	71	1	Merge pull request #3692 from apache/CAMEL-14811		
+https://github.com/walmartlabs/concord/commit/ab32c17f85200545ed6376badc528c7df95f5adb	walmartlabs/concord	3	2	5	9	1	concord-server: configurable CORS origin (#1544)		
+https://github.com/junrar/junrar/commit/7b16b3d90b91445fd6af0adfed22c07413d4fab7	junrar/junrar	1	1	0	1	1	fix: invalid subheader type would throw npe and make the extract loop		
+https://github.com/apache/jena/commit/66cae9052edef6dd08a172191faad3c50bdbe376	apache/jena	4	4	15	20	1	Centralize XML reading setup.		
+https://github.com/jenkinsci/build-failure-analyzer-plugin/commit/a261229a67c52927d531c48ec0a59bf138ebd4d0	jenkinsci/build-failure-analyzer-plugin	3	3	1	4	1	[SECURITY-3226][SECURITY-3239][SECURITY-3244]		
+https://github.com/diffplug/spotless/commit/b2e61c3197a90becd1375b45549e910ac869aa29	diffplug/spotless	3	0	0	3	1	Bump eclipse bundled deps to https.  Doesn't work yet beacuse http://dist.springsource.org/ doesn't support SSL.		
+https://github.com/jamesagnew/hapi-fhir/commit/8f41159eb147eeb964cad68b28eff97acac6ea9a	jamesagnew/hapi-fhir	1	0	0	1	1	Fix a potential security vulneability in the testpage overlay		
+https://github.com/apache/struts/commit/524aee3131503626fdd0a01d2030e826d86f1531	apache/struts	11	4	0	14	1	WW-3241: ShowCase demo application still uses the CodeBehind plugin.		
+https://github.com/javamelody/javamelody/commit/2f0716f1e66ded47da75352a953e05ffea886fd7	javamelody/javamelody	1	1	0	1	1	fix XSS		
+https://github.com/ktorio/ktor/commit/26028bc9e6d8bb1f2448cd4414fd371135ad5e86	ktorio/ktor	9	0	5	18	1	KTOR-4669 Encode Content-Disposition filename* parameter (#3110)		
+https://github.com/mysql/mysql-connector-j/commit/e824d25875e2fdfdacf8a09e8d829df00a3db8e7	mysql/mysql-connector-j	2	1	1	1	1	Fix for Bug#23143279	 CLIENT HANG WHEN LOADBALANCESTRATEGY IS BESTRESPONSETIME.	
+https://github.com/FasterXML/jackson-databind/commit/3ded28aece694d0df39c9f0fa1ff385b14a8656b	FasterXML/jackson-databind	2	1	0	12	1	Fixed #3004		
+https://github.com/FasterXML/jackson-databind/commit/33d96c13fe18a2dad01b19ce195548c9acea9da4	FasterXML/jackson-databind	2	1	0	2	1	Fixed #2996		
+https://github.com/FasterXML/jackson-databind/commit/1645efbd392989cf015f459a91c999e59c921b15	FasterXML/jackson-databind	2	1	0	3	1	Fix #2660		
+https://github.com/FasterXML/jackson-databind/commit/1645efbd392989cf015f459a91c999e59c921b15	FasterXML/jackson-databind	2	1	0	3	1	Fix #2660		
+https://github.com/FasterXML/jackson-databind/commit/1645efbd392989cf015f459a91c999e59c921b15	FasterXML/jackson-databind	2	1	0	3	1	Fix #2660		
+https://github.com/FasterXML/jackson-databind/commit/1645efbd392989cf015f459a91c999e59c921b15	FasterXML/jackson-databind	2	1	0	3	1	Fix #2660		
+https://github.com/FasterXML/jackson-databind/commit/1645efbd392989cf015f459a91c999e59c921b15	FasterXML/jackson-databind	2	1	0	3	1	Fix #2660		
+https://github.com/FasterXML/jackson-databind/commit/f6d9c664f6d481703138319f6a0f1fdbddb3a259	FasterXML/jackson-databind	2	1	0	2	1	Fixed #2765		
+https://github.com/FasterXML/jackson-databind/commit/f6d9c664f6d481703138319f6a0f1fdbddb3a259	FasterXML/jackson-databind	2	1	0	2	1	Fixed #2765		
+https://github.com/FasterXML/jackson-databind/commit/f6d9c664f6d481703138319f6a0f1fdbddb3a259	FasterXML/jackson-databind	2	1	0	2	1	Fixed #2765		
+https://github.com/FasterXML/jackson-databind/commit/592872f4235c7f2a3280725278da55544032f72d	FasterXML/jackson-databind	2	1	0	2	1	Fix #2659		
+https://github.com/FasterXML/jackson-databind/commit/592872f4235c7f2a3280725278da55544032f72d	FasterXML/jackson-databind	2	1	0	2	1	Fix #2659		
+https://github.com/FasterXML/jackson-databind/commit/3ccde7d938fea547e598fdefe9a82cff37fed5cb	FasterXML/jackson-databind	2	1	4	1	1	Fix #3328 (improvement to handling of JDK serialization of JsonNode)		
+https://github.com/FasterXML/jackson-databind/commit/3ccde7d938fea547e598fdefe9a82cff37fed5cb	FasterXML/jackson-databind	2	1	4	1	1	Fix #3328 (improvement to handling of JDK serialization of JsonNode)		
+https://github.com/spring-projects/spring-security/commit/7813a9ba26e53fe54e4d2ec6eb076126e8550780	spring-projects/spring-security	4	4	20	8	1	None		
+https://github.com/spring-projects/spring-security/commit/7813a9ba26e53fe54e4d2ec6eb076126e8550780	spring-projects/spring-security	4	4	20	8	1	None		
+https://github.com/spring-projects/spring-security/commit/7813a9ba26e53fe54e4d2ec6eb076126e8550780	spring-projects/spring-security	4	4	20	8	1	None		
+https://github.com/spring-projects/spring-security/commit/7813a9ba26e53fe54e4d2ec6eb076126e8550780	spring-projects/spring-security	4	4	20	8	1	None		
+https://github.com/spring-projects/spring-security/commit/7813a9ba26e53fe54e4d2ec6eb076126e8550780	spring-projects/spring-security	4	4	20	8	1	None		
+https://github.com/spring-projects/spring-security/commit/5b293d21161e946bf241d9e974b9af93cfafaaac	spring-projects/spring-security	4	1	15	24	1	None		
+https://github.com/spring-projects/spring-security/commit/5b293d21161e946bf241d9e974b9af93cfafaaac	spring-projects/spring-security	4	1	15	24	1	None		
+https://github.com/spring-projects/spring-security/commit/5b293d21161e946bf241d9e974b9af93cfafaaac	spring-projects/spring-security	4	1	15	24	1	None		
+https://github.com/spring-projects/spring-security/commit/5b293d21161e946bf241d9e974b9af93cfafaaac	spring-projects/spring-security	4	1	15	24	1	None		
+https://github.com/spring-projects/spring-security/commit/5a7f12f1a9fdb4edaab6f61495f1d781a7273b61	spring-projects/spring-security	1	1	1	1	1	None		
+https://github.com/spring-projects/spring-security/commit/5a7f12f1a9fdb4edaab6f61495f1d781a7273b61	spring-projects/spring-security	1	1	1	1	1	None		
+https://github.com/spring-projects/spring-security/commit/5a7f12f1a9fdb4edaab6f61495f1d781a7273b61	spring-projects/spring-security	1	1	1	1	1	None		
+https://github.com/spring-projects/spring-security/commit/5a7f12f1a9fdb4edaab6f61495f1d781a7273b61	spring-projects/spring-security	1	1	1	1	1	None		
+https://github.com/spring-projects/spring-security/commit/750cb30ce44d279c2f54c845d375e6a58bded569	spring-projects/spring-security	9	9	7	10	1	None		
+https://github.com/spring-projects/spring-security/commit/750cb30ce44d279c2f54c845d375e6a58bded569	spring-projects/spring-security	9	9	7	10	1	None		
+https://github.com/spring-projects/spring-security/commit/8f6ddb0f171eb6011a44879a557c7932be857eb2	spring-projects/spring-security	8	6	11	58	1	None		
+https://github.com/jenkinsci/dimensionsscm-plugin/commit/2b6e23e5fb88e00a36512ea1dfca37e7f8387cd6	jenkinsci/dimensionsscm-plugin	16	10	26	46	1	[SECURITY-3138][SECURITY-3143]		
+https://github.com/jenkinsci/dimensionsscm-plugin/commit/2b6e23e5fb88e00a36512ea1dfca37e7f8387cd6	jenkinsci/dimensionsscm-plugin	16	10	26	46	1	[SECURITY-3138][SECURITY-3143]		
+https://github.com/jenkinsci/dimensionsscm-plugin/commit/2b6e23e5fb88e00a36512ea1dfca37e7f8387cd6	jenkinsci/dimensionsscm-plugin	16	10	26	46	1	[SECURITY-3138][SECURITY-3143]		
+https://github.com/jenkinsci/dimensionsscm-plugin/commit/2b6e23e5fb88e00a36512ea1dfca37e7f8387cd6	jenkinsci/dimensionsscm-plugin	16	10	26	46	1	[SECURITY-3138][SECURITY-3143]		
+https://github.com/jenkinsci/dimensionsscm-plugin/commit/2b6e23e5fb88e00a36512ea1dfca37e7f8387cd6	jenkinsci/dimensionsscm-plugin	16	10	26	46	1	[SECURITY-3138][SECURITY-3143]		
+https://github.com/jenkinsci/dimensionsscm-plugin/commit/2b6e23e5fb88e00a36512ea1dfca37e7f8387cd6	jenkinsci/dimensionsscm-plugin	16	10	26	46	1	[SECURITY-3138][SECURITY-3143]		
+https://github.com/jenkinsci/dimensionsscm-plugin/commit/2b6e23e5fb88e00a36512ea1dfca37e7f8387cd6	jenkinsci/dimensionsscm-plugin	16	10	26	46	1	[SECURITY-3138][SECURITY-3143]		
+https://github.com/spring-projects/spring-security/commit/c72a6fac04853912a4b7caad5f0500f2aace5a79	spring-projects/spring-security	1	1	4	2	0	None		
+https://github.com/spring-projects/spring-security/commit/ed9411c6608b044ee40dcc25ba71f87e73282740	spring-projects/spring-security	6	6	15	46	1	None		
+https://github.com/apache/tika/commit/83b0de4d60161ebd4bc224141a959ac8c18d95f4	apache/tika	1	1	0	1	0	None		
+https://github.com/apache/tika/commit/83b0de4d60161ebd4bc224141a959ac8c18d95f4	apache/tika	1	1	0	1	0	None		
+https://github.com/apache/tika/commit/83b0de4d60161ebd4bc224141a959ac8c18d95f4	apache/tika	1	1	0	1	0	None		
+https://github.com/apache/tika/commit/a36711610fa1f6f5ba0f594803415af795e0b265	apache/tika	1	1	0	1	0	None		
+https://github.com/apache/tika/commit/3f0078639e9b15de7f5f8293df9222fdc1505fe0	apache/tika	2	2	3	5	0	None		
+https://github.com/apache/tika/commit/22f763a3f14f9a47e46212a74b2a5d4339de6ab5	apache/tika	2	2	6	17	0	None		
+https://github.com/wiremock/wiremock/commit/027ddafc38a1048d6bd64d896b07ee35b0268894	wiremock/wiremock	4	4	11	14	1	Moved enforcement of network address rules to Apache client DNS resolver to avoid race condition where rules can be bypassed via successive lookups returning different IP addresses		
+https://github.com/wiremock/wiremock/commit/027ddafc38a1048d6bd64d896b07ee35b0268894	wiremock/wiremock	4	4	11	14	1	Moved enforcement of network address rules to Apache client DNS resolver to avoid race condition where rules can be bypassed via successive lookups returning different IP addresses		
+https://github.com/wiremock/wiremock/commit/027ddafc38a1048d6bd64d896b07ee35b0268894	wiremock/wiremock	4	4	11	14	1	Moved enforcement of network address rules to Apache client DNS resolver to avoid race condition where rules can be bypassed via successive lookups returning different IP addresses		
+https://github.com/wiremock/wiremock/commit/027ddafc38a1048d6bd64d896b07ee35b0268894	wiremock/wiremock	4	4	11	14	1	Moved enforcement of network address rules to Apache client DNS resolver to avoid race condition where rules can be bypassed via successive lookups returning different IP addresses		
+https://github.com/wiremock/wiremock/commit/027ddafc38a1048d6bd64d896b07ee35b0268894	wiremock/wiremock	4	4	11	14	1	Moved enforcement of network address rules to Apache client DNS resolver to avoid race condition where rules can be bypassed via successive lookups returning different IP addresses		
+https://github.com/apache/tomcat/commit/b0e3b1bd78de270d53e319d7cb79eb282aa53cb9	apache/tomcat	6	4	13	21	1	None		
+https://github.com/apache/tomcat/commit/0052b374684b613b0c849899b325ebe334ac6501	apache/tomcat	6	4	13	21	1	None		
+https://github.com/apache/tomcat/commit/52d6650e062d880704898d7d8c1b2b7a3efe8068	apache/tomcat	6	4	13	21	1	None		
+https://github.com/apache/tomcat/commit/3631adb1342d8bbd8598802a12b63ad02c37d591	apache/tomcat	6	4	13	21	1	None		
+https://github.com/apache/camel/commit/c23df082b024df2126953d65675d8f4df7895395	apache/camel	2	2	2	7	1	CAMEL-20303 - Camel-Sql: Add ObjectInputFilter String pattern parameter in JdbcAggregationRepository to be used in unmarshall operations (#12706)		
+https://github.com/apache/camel/commit/f71ee8f384523c75daa89934209d8cee04e9fca3	apache/camel	3	2	2	8	1	CAMEL-20303 - Camel-Sql: Add ObjectInputFilter String pattern parameter in JdbcAggregationRepository to be used in unmarshall operations (#12789)		
+https://github.com/apache/camel/commit/7c90d516ef238be22369bfbf1500a2742ccc02e2	apache/camel	2	2	2	7	1	CAMEL-20303 - Camel-Sql: Add ObjectInputFilter String pattern parameter in JdbcAggregationRepository to be used in unmarshall operations (#12707)		
+https://github.com/apache/camel/commit/9fb66ee02463bf26909bd90ffa41e5fd36a72085	apache/camel	2	2	2	7	1	CAMEL-20303 - Camel-Sql: Add ObjectInputFilter String pattern parameter in JdbcAggregationRepository to be used in unmarshall operations (#12709)		
+https://github.com/spring-projects/spring-security-oauth/commit/4082ec7ae3d39198a47b5c803ccb20dacefb0b09	spring-projects/spring-security-oauth	1	1	0	12	1	Validate authorization request on approval		
+https://github.com/spring-projects/spring-security-oauth/commit/f92223afc71687bd3156298054903f50aa71fbf9	spring-projects/spring-security-oauth	1	1	0	12	1	Validate authorization request on approval		
+https://github.com/spring-projects/spring-security-oauth/commit/ddd65cd9417ae1e4a69e4193a622300db38e2ef1	spring-projects/spring-security-oauth	1	1	0	12	1	Validate authorization request on approval		
+https://github.com/spring-projects/spring-security-oauth/commit/ddd65cd9417ae1e4a69e4193a622300db38e2ef1	spring-projects/spring-security-oauth	1	1	0	12	1	Validate authorization request on approval		
+https://github.com/apache/cxf/commit/e227a1a9ee536a33c550683405a766bf5e906873	apache/cxf	1	1	0	3	1	Refactoring cert host verifier		
+https://github.com/apache/cxf/commit/68cd67b1187edfca957f15a00eab9a14cd140672	apache/cxf	1	1	0	3	1	Refactoring cert host verifier		
+https://github.com/community-security-team/liferay-portal/commit/064e6b01afa1e087e4c6bbaf7f71c97ee33f3ee9	community-security-team/liferay-portal	95	61	136	386	1	None		
+https://github.com/community-security-team/liferay-portal/commit/064e6b01afa1e087e4c6bbaf7f71c97ee33f3ee9	community-security-team/liferay-portal	95	61	136	386	1	None		
+https://github.com/community-security-team/liferay-portal/commit/064e6b01afa1e087e4c6bbaf7f71c97ee33f3ee9	community-security-team/liferay-portal	95	61	136	386	1	None		
+https://github.com/community-security-team/liferay-portal/commit/064e6b01afa1e087e4c6bbaf7f71c97ee33f3ee9	community-security-team/liferay-portal	95	61	136	386	1	None		
+https://github.com/apache/cxf/commit/d0baeb3ee64c6d7c883bd2f5c4cb0de6b0b5f463	apache/cxf	1	1	7	5	1	Disable URLDataSource by default for Aegis (#1727)		
+https://github.com/apache/cxf/commit/659a8f9b10bc8037774c0399e61e77e3955fd230	apache/cxf	1	1	7	5	1	Disable URLDataSource by default for Aegis (#1727)		
+https://github.com/apache/cxf/commit/f973751b67f79ea2b53fabb2f1762214b7d07131	apache/cxf	1	1	7	5	1	Disable URLDataSource by default for Aegis (#1727)		
+https://github.com/jenkinsci/script-security-plugin/commit/85d16bd851b355458f6396dbc4f92c3e0eebcd72	jenkinsci/script-security-plugin	6	4	44	31	1	None		
+https://github.com/jenkinsci/script-security-plugin/commit/85d16bd851b355458f6396dbc4f92c3e0eebcd72	jenkinsci/script-security-plugin	6	4	44	31	1	None		
+https://github.com/jenkinsci/script-security-plugin/commit/85d16bd851b355458f6396dbc4f92c3e0eebcd72	jenkinsci/script-security-plugin	6	4	44	31	1	None		
+https://github.com/cescoffier/quarkus/commit/d5fc95429199629b189b61a78f3d8da76f75ed86	cescoffier/quarkus	4	4	2	2	1	Enforce the configured TLS version		
+https://github.com/cescoffier/quarkus/commit/d5fc95429199629b189b61a78f3d8da76f75ed86	cescoffier/quarkus	4	4	2	2	1	Enforce the configured TLS version		
+https://github.com/cescoffier/quarkus/commit/d5fc95429199629b189b61a78f3d8da76f75ed86	cescoffier/quarkus	4	4	2	2	1	Enforce the configured TLS version		
+https://github.com/reactor/reactor-netty/commit/37dc8a2ef6514cd7834e75e7f3faf0b9ea044c88	reactor/reactor-netty	1	1	1	1	1	Ensure metrics are unregistered when inactive connection pool is disposed (#2932)		
+https://github.com/reactor/reactor-netty/commit/37dc8a2ef6514cd7834e75e7f3faf0b9ea044c88	reactor/reactor-netty	1	1	1	1	1	Ensure metrics are unregistered when inactive connection pool is disposed (#2932)		
+https://github.com/reactor/reactor-netty/commit/9662c6fb643180c1b4bd93e2d300c2d1928ffdf2	reactor/reactor-netty	10	10	22	27	1	Check for log level (#2528)		
+https://github.com/apache/santuario-xml-security-java/commit/cd923d63ba2a02578b263258e749f3ed94389fd8	apache/santuario-xml-security-java	2	2	0	2	1	Logging improvements.		
+https://github.com/apache/santuario-xml-security-java/commit/c85db6be7f49815253f59902b066086a7ad5ce9a	apache/santuario-xml-security-java	2	2	0	2	1	Logging improvements.		
+https://github.com/apache/santuario-xml-security-java/commit/18999b9dced2c736f4a8d52d0c7d1b114351c77d	apache/santuario-xml-security-java	2	2	0	2	1	Logging improvements.		
+https://github.com/akka/akka/commit/ef33e71ac9ce0b5041adcbb57d210c7d029712b6	akka/akka	1	0	8	15	1	fix: Refactor concurrency in AsyncDnsResolver (#31906)		
+https://github.com/akka/akka/commit/ef33e71ac9ce0b5041adcbb57d210c7d029712b6	akka/akka	1	0	8	15	1	fix: Refactor concurrency in AsyncDnsResolver (#31906)		
+https://github.com/akka/akka/commit/ef33e71ac9ce0b5041adcbb57d210c7d029712b6	akka/akka	1	0	8	15	1	fix: Refactor concurrency in AsyncDnsResolver (#31906)		
+https://github.com/apache/poi/commit/bb7a24769a97732e760a0d70e76466424bfc4d8e	apache/poi	6	6	20	24	0	None		
+https://github.com/apache/poi/commit/103b45073c7b504236588b3acc146530205af53c	apache/poi	9	6	8	20	1	None		
+https://github.com/spring-cloud/spring-cloud-config/commit/d3e21866a5f192fa2582349cb3732ad0e4b8850b	spring-cloud/spring-cloud-config	1	1	9	5	1	Cleans invalid paths		
+https://github.com/spring-cloud/spring-cloud-config/commit/9617f2922ee2ae27f08676716224933f0d869719	spring-cloud/spring-cloud-config	1	1	9	5	1	Merge branch '2.1.x'		
+https://github.com/spring-cloud/spring-cloud-config/commit/90e8a81f6fa921e034cecb79cd100f343f7714af	spring-cloud/spring-cloud-config	1	1	9	5	1	Merge branch '2.0.x' into 2.1.x		
+https://github.com/apache/dolphinscheduler/commit/8c01fcf14b199e2c1ba86c17351e1ea30614f484	apache/dolphinscheduler	21	6	10	61	1	None		
+https://github.com/apache/dolphinscheduler/commit/d1ef54f6a851e64525f1078887520394e553b6e8	apache/dolphinscheduler	2	2	7	8	1	None		
+https://github.com/apache/dolphinscheduler/commit/a0bc778bafc29d2d65bc9ed66db0fa51e6860809	apache/dolphinscheduler	1	1	16	28	1	None		
+https://github.com/apache/dolphinscheduler/commit/a4948f58e671ab263060da1de255af3ecd2530ac	apache/dolphinscheduler	29	22	105	137	1	None		
+https://github.com/apache/activemq/commit/6120169e563b55323352431dfe9ac67a8b4de6c2	apache/activemq	1	0	0	5	0	None		
+https://github.com/apache/activemq/commit/6120169e563b55323352431dfe9ac67a8b4de6c2	apache/activemq	1	0	0	5	0	None		
+https://github.com/rundeck/rundeck/commit/03c4833c05a79a8e73d296980ffbd778e614e8f3	rundeck/rundeck	2	0	9	14	1	remove unused controller		
+https://github.com/rundeck/rundeck/commit/03c4833c05a79a8e73d296980ffbd778e614e8f3	rundeck/rundeck	2	0	9	14	1	remove unused controller		
+https://github.com/apache/james-project/commit/3f02586be84c0394bbe90900f0957354ea41e02c	apache/james-project	4	1	0	5	1	None		
+https://github.com/apache/james-project/commit/59bf9b9cdfaabbeb1de6971ce0bbbe230c9f8b36	apache/james-project	4	1	0	5	1	None		
+"https://github.com/apache/incubator-streampark/commit/b1132fe1368c49ea0fce2a46d1dfc58031ace089	"	apache/incubator-streampark	0	0	0	0	1	None		
+https://github.com/apache/incubator-streampark/commit/5d381d8a357cb439022dec10f570f54aca2b208d	apache/incubator-streampark	8	0	0	14	1	[Improve] sync code from dev (#3375)		
+https://github.com/EsotericSoftware/yamlbeans/commit/b1122588e7610ae4e0d516c50d08c94ee87946e6	EsotericSoftware/yamlbeans	3	3	15	7	1	added a new read config flag of anchor to enable/disable following an�?(#164)		
+https://github.com/EsotericSoftware/yamlbeans/commit/b1122588e7610ae4e0d516c50d08c94ee87946e6	EsotericSoftware/yamlbeans	3	3	15	7	1	added a new read config flag of anchor to enable/disable following an�?(#164)		
+https://github.com/apache/dolphinscheduler/commit/a4948f58e671ab263060da1de255af3ecd2530ac	apache/dolphinscheduler	29	22	105	137	1	None		
+https://github.com/apache/incubator-dolphinscheduler/commit/86f4276f0fd8d3d42ce9bcc13463eb015232b56f	apache/incubator-dolphinscheduler	2	2	3	8	1	Fix MySQL autoDeserialize bug (#2728)		
+https://github.com/qos-ch/slf4j/commit/d2b27fba88e983f921558da27fc29b5f5d269405	qos-ch/slf4j	1	1	0	0	1	fix SLF4J-431		
+https://github.com/qos-ch/slf4j/commit/918a055bdf87867f69693cf82727fa435c489e25	qos-ch/slf4j	19	3	30	58	1	fix CVE-2018-8088	 prepare 1.7.26 release	
+https://github.com/apache/jmeter/commit/8a0154759224243fb72dd41a4a65ad0f5612a739	apache/jmeter	16	10	38	153	0	None		
+https://github.com/quarkusio/quarkus/commit/f781b7fd106fd2d90656ac78d21f8e01374f0b68	quarkusio/quarkus	1	1	5	3	1	Handle duplicated context in the CacheResultInterceptor		
+https://github.com/quarkusio/quarkus/commit/f781b7fd106fd2d90656ac78d21f8e01374f0b68	quarkusio/quarkus	1	1	5	3	1	Handle duplicated context in the CacheResultInterceptor		
+https://github.com/eclipse-ee4j/parsson/commit/9dd5ad5f871f7b93654073a3f8ce3e1d9b8d9b31	eclipse-ee4j/parsson	5	4	7	8	1	BigInteger scale limit counts absolute value now. (#100)		
+https://github.com/eclipse-ee4j/parsson/commit/ece765cf33fd6afb00f99f85dc9029c54eaa6623	eclipse-ee4j/parsson	5	4	7	8	1	BigInteger scale limit counts absolute value now.		
+https://github.com/jetty/jetty.project/commit/ebec7d2ea3427298a8922210177f84c0fab58bd6	jetty/jetty.project	31	31	9	129	1	None		
+https://github.com/jetty/jetty.project/commit/ebec7d2ea3427298a8922210177f84c0fab58bd6	jetty/jetty.project	31	31	9	129	1	None		
+https://github.com/apache/httpclient/commit/51cc67567765d67f878f0dcef61b5ded454d3122	apache/httpclient	1	1	0	5	1	Improved cert subject parsing		
+https://github.com/apache/httpcomponents-client/commit/e628b4c5c464c2fa346385596cc78e035a91a62e	apache/httpcomponents-client	1	1	10	8	1	Incorrect handling of malformed authority component by URIUtils#extractHost		
+https://github.com/akka/akka-http/commit/6fd3c0dc2d9dc979bdc99395f39ec42e733011e4	akka/akka-http	7	0	0	21	1	core: limit comment nesting in header parser		
+https://github.com/akka/akka-http/commit/6fd3c0dc2d9dc979bdc99395f39ec42e733011e4	akka/akka-http	7	0	0	21	1	core: limit comment nesting in header parser		
+https://github.com/apache/nifi/commit/bd88e4335ad151592f1310996e9a0513b7f0829a	apache/nifi	12	12	32	62	1	Refactored user identity parsing and proxied entity chain formatting. Added unit tests.		
+https://github.com/apache/nifi/commit/bd88e4335ad151592f1310996e9a0513b7f0829a	apache/nifi	12	12	32	62	1	Refactored user identity parsing and proxied entity chain formatting. Added unit tests.		
+https://github.com/apereo/cas/commit/eef5027b24111f0bf8169e096958f7bbb3bfafc0	apereo/cas	2	2	1	3	1	Fix MFA Gauth		
+https://github.com/apereo/cas/commit/7ee8be94ae346f26cf1105b80a9bf4d15d717d8f	apereo/cas	3	2	0	6	1	mfa:gauth: Embed QRCode image in registration template		
+https://github.com/spring-projects/spring-data-rest/commit/2ad081f75b4baabfbc139f0dc2b75c54889b4053	spring-projects/spring-data-rest	20	20	54	149	1	Improve JSON Patch implementation.		
+https://github.com/spring-projects/spring-data-rest/commit/bf37590b25a0c066f67547b39fb4d7294e2c7cb7	spring-projects/spring-data-rest	20	20	54	149	1	Improve JSON Patch implementation.		
+https://github.com/apache/struts1/commit/d75d351da0f85b8930fd47fd3c23f5351cddbcf3	apache/struts1	2	1	0	4	1	modify RequestProcessor error messages		
+https://github.com/apache/struts1/commit/d75d351da0f85b8930fd47fd3c23f5351cddbcf3	apache/struts1	2	1	0	4	1	modify RequestProcessor error messages		
+https://github.com/graphhopper/graphhopper/commit/6e98cf8119314c9f28134c492b12eb878ef7754c	graphhopper/graphhopper	1	0	1	1	1	avoid prototype pollution (#2370)		
+https://github.com/graphhopper/graphhopper/commit/784470f3315717abe4920435f24e9d08dae63267	graphhopper/graphhopper	1	0	1	1	1	avoid prototype pollution (#2370)		
+https://github.com/liferay/liferay-portal/commit/5382b19bf7998f1c68c35bfea73b16932e7a86d1	liferay/liferay-portal	3	2	3	9	0	None		
+https://github.com/liferay/liferay-portal/commit/5382b19bf7998f1c68c35bfea73b16932e7a86d1	liferay/liferay-portal	3	2	3	9	0	None		
+https://github.com/apache/cxf/commit/8636c3760a97979f42e45080230a27b81df5d436	apache/cxf	3	1	11	23	1	Prevent RMI registry rebind (#641)		
+https://github.com/apache/cxf/commit/98ec361acd390483005de12ca3b10cf49cbdcf8a	apache/cxf	3	1	11	23	1	Prevent RMI registry rebind (#641)		
+https://github.com/apache/ambari/commit/d9652e4611ea36208d5f748028b3a9cd980e6edb	apache/ambari	1	1	2	2	1	Validate xml file to remediate vulnerablity. Contributed by Bhavya Hoda <bhavyahoda@microsoft.com>		
+https://github.com/jenkinsci/git-server-plugin/commit/068ac7cc2574882ef9f5a486e001228a71d881ad	jenkinsci/git-server-plugin	1	1	2	0	1	SECURITY-3319		
+https://github.com/jetty/jetty.project/commit/0839a208cdc3fcfe25206a77af59ba9fda260188	jetty/jetty.project	6	6	8	18	1	None		
+https://github.com/apache/linkis/commit/08cbcfca140afebae10e1582ee87721578719ded	apache/linkis	8	5	1	10	0	None		
+https://github.com/jenkinsci/bitbucket-branch-source-plugin/commit/28d74e8b4226bfc7524b412e34f7090784cc1a08	jenkinsci/bitbucket-branch-source-plugin	37	30	133	166	1	Support cloning from Bitbucket mirror (#796)		
+https://github.com/opencrx/opencrx/commit/ce7a71db0bb34ecbcb0e822d40598e410a48b399	opencrx/opencrx	1	1	6	2	1	fixes XML eXternal Entity injection (XXE)		
+https://github.com/pixee/java-security-toolkit/commit/b885b03c9cfae53d62d239037f9654d973dd54d9	pixee/java-security-toolkit	3	1	4	8	1	Merge pull request from GHSA-qh4g-4m4w-jgv2		
+https://github.com/treasure-data/digdag/commit/13ebfa1e33fbbad3953da2d918b0d485dc28fd85	treasure-data/digdag	1	1	0	2	1	Fix path traversal vulnerability in LocalFileLogServer		
+https://github.com/apache/velocity-engine/commit/f355cec739d4e705e541a149ff2d8806ed565401	apache/velocity-engine	1	1	1	4	1	Merge pull request #16 from wglasshusain/VELOCITY-931-update-secure-classlist		
+https://github.com/jenkinsci/config-file-provider-plugin/commit/0432a802e4d2e4eedfe88f7eb8593f85d1bd69d3#diff-0bf8220c5f2a9e06a1797f19fb4336615daa1a4163cc4e2efea8783961b079c4	jenkinsci/config-file-provider-plugin	12	11	34	39	1	SECURITY-3090		
+https://github.com/LetianYuan/alluxio/commit/4b5ec253002dae6b47ea3008c09f0378c116754d	LetianYuan/alluxio	2	2	5	7	1	fix code injection vulnerability introduced by ShellUtils.getGroupsForUserCommand		
+https://github.com/apache/shenyu/commit/1fd33d5aa032e8e71e7e40b229d74e9f88745923	apache/shenyu	2	2	6	10	1	[Task #4774] <The access layer interface for the apidoc function only allows requests for gateway addresses within the whitelist.> (#4776)		
+https://github.com/dromara/hutool/commit/32f2d0bd55defecb869fbf64d940bcc05642accc	dromara/hutool	2	1	1	5	1	修复StrSplitter.splitByRegex使用空参数导致的OOM问题		
+https://github.com/apache/shiro/commit/6acaaee9bb3a27927b599c37fabaeb7dd6109403	apache/shiro	11	9	8	17	1	Add ShiroUrlHelper and related Spring configuration		
+https://github.com/apache/activemq-artemis/commit/48d9951d879e0c8cbb59d4b64ab59d53ef88310d	apache/activemq-artemis	1	1	1	4	1	ActiveMQ6-112 Add defaults to the selector parser doc builder		
+https://github.com/apache/freemarker/commit/617ad6fc005fefc0a0e4cd211c903a6b5a84e5bb	apache/freemarker	568	523	173	271	1	Merge remote-tracking branch 'origin/2.3-gae' into 2.3		
+https://github.com/wso2/carbon-registry/commit/878fc7e53c90acc85e303d2af73440014a68b246	wso2/carbon-registry	1	0	0	2	0	None		
+https://github.com/apache/iotdb/commit/89c0ec3b963cb44cf94a1efac8f28a5fc475d214	apache/iotdb	5	4	14	13	1	None		
+https://github.com/jenkinsci/translation-plugin/commit/1287c8ead6adc891210b8b9fbc33f07adebf720d	jenkinsci/translation-plugin	1	1	0	1	1	[SECURITY-507] Add @RequirePOST for the submit		
+https://github.com/apache/sling-org-apache-sling-i18n/commit/c07049d9124dfa73e7a249c7466699941c2afb3e	apache/sling-org-apache-sling-i18n	4	4	6	36	1	SLING-11744 : Allow configuration of include and exclude paths for bundles		
+https://github.com/apache/sling-org-apache-sling-app-cms/commit/540be07c6fd0af01c8ddb6fca39b06d8e9a60e5c	apache/sling-org-apache-sling-app-cms	115	0	1	650	1	Fixing use if sling:encode		
+https://github.com/eclipse-jdt/eclipse.jdt.core/commit/38dd2a878f45cdb3d8d52090f1d6d1b532fd4c4d	eclipse-jdt/eclipse.jdt.core	9	5	5	11	1	Refactor XML parsing		
+https://github.com/eclipse-platform/eclipse.platform.ui/commit/f243cf0a28785b89b7c50bf4e1cce48a917d89bd	eclipse-platform/eclipse.platform.ui	57	11	26	89	1	Refactor XML handling		
+https://github.com/eclipse-platform/eclipse.platform.ui/commit/f243cf0a28785b89b7c50bf4e1cce48a917d89bd	eclipse-platform/eclipse.platform.ui	57	11	26	89	1	Refactor XML handling		
+https://github.com/jeecgboot/jeecg-boot/commit/ca1218f792369ed3c8196e796b1940b33ed6469b	jeecgboot/jeecg-boot	1	1	0	2	1	sys/duplicate/check SQL注入 #4737		
+https://github.com/jenkinsci/nodejs-plugin/commit/a2198feb53765f0b1f063b1827e90473a60a25a0	jenkinsci/nodejs-plugin	4	3	6	2	1	SECURITY-3196		
+https://github.com/webauthn4j/webauthn4j-spring-security/commit/129700d74d83f9b9a82bf88ebc63707e3cb0a725#diff-8b498aa0a0a11f93f0e681d9fc2c2a7840186d290e62004ae5e3a2eb0bc5a98dL23	webauthn4j/webauthn4j-spring-security	3	1	0	3	1	Merge pull request from GHSA-v9hx-v6vf-g36j		
+https://github.com/payara/Payara/commit/1cc2f12678a414286b7f0cc28a2abf32a0c3b6ea	payara/Payara	1	1	0	1	1	Merge pull request #1209 from smillidge/PAYARA-1214		
+https://github.com/opencast/opencast/commit/776d5588f39c61eb04c03bb955416c4f77629d51	opencast/opencast	1	1	0	7	1	Merge pull request from GHSA-hcxx-mp6g-6gr9		
+https://github.com/apache/camel/commit/e9eb2fdea3cd298c7176fd003b6e9b114ae74dbf	apache/camel	1	1	3	4	1	CAMEL-15013: Template components - Add option to turn on|off allow using header with override template		
+https://github.com/apache/camel/commit/36b55f9cfa50a2056c70f98d66c29a95ddc724e1	apache/camel	11	8	44	71	1	Merge pull request #3692 from apache/CAMEL-14811		
+https://github.com/HubSpot/jinjava/commit/c13927db0fb7bb3b567469f125be8000f8cbf601	HubSpot/jinjava	1	1	0	1	1	Merge pull request #230 from HubSpot/do-not-allow-calling-getClass		
+https://github.com/resteasy/resteasy/commit/556fa437f4913848d60a9fdfe2369aceedc71397	resteasy/resteasy	3	3	3	5	1	[RESTEASY-2646]:Fix match cache in  RootNode grows infinitely (#2471)		
+https://github.com/jhy/jsoup/commit/d2c455c94a3aaaca29d8cec6bd53ee9824622b51	jhy/jsoup	5	4	1	7	1	Speed improvement: cap number of cloned active formatting elements		
+https://github.com/apache/openmeetings/commit/cbdfd2f9731a8fe3daa9b4adf5da4a063fde161d	apache/openmeetings	2	0	0	3	1	[OPENMEETINGS-2551] NetTest client count can be limited		
+https://github.com/spring-projects/spring-boot/commit/667ccdae84822072f9ea1a27ed5c77964c71002d	spring-projects/spring-boot	1	1	1	1	1	Simplify temp directory creation and improve diagnostics		
+https://github.com/diffplug/spotless/commit/b2e61c3197a90becd1375b45549e910ac869aa29	diffplug/spotless	3	0	0	3	1	Bump eclipse bundled deps to https.  Doesn't work yet beacuse http://dist.springsource.org/ doesn't support SSL.		
+https://github.com/apache/struts/commit/1736b56db702c6639a6d5ae1146dba5a262e3344	apache/struts	8	8	0	10	1	WW-3597 - XSS vulnerability in javatemplates plugin (thanks Gareth Faires)		
+https://github.com/apache/struts/commit/77ce77d342da02eac9e8f6232da3bcf6dafbc3f0	apache/struts	4	4	0	10	1	Solves problem with rest-showcase app and adds additional test to proof how excludePackages works		
+https://github.com/apache/sling/commit/7dc32d7bb2c44319b2d94b76b454dea9fd438071	apache/sling	1	0	1	0	1	SLING-7041 - Use JSON parsing in Sling.evalString		
+https://github.com/apache/derby/commit/a2027c64e185a9ce46929f352e2db03371c1f95b	apache/derby	6	4	2	26	1	None		
